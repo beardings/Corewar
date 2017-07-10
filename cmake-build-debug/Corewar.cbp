@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/main.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h">
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/CMakeLists.txt">

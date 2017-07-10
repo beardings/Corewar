@@ -123,32 +123,59 @@ Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
 
-main.o: main.c.o
+vm/controller/get_flags.o: vm/controller/get_flags.c.o
 
-.PHONY : main.o
+.PHONY : vm/controller/get_flags.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/main.c.o
-.PHONY : main.c.o
+vm/controller/get_flags.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o
+.PHONY : vm/controller/get_flags.c.o
 
-main.i: main.c.i
+vm/controller/get_flags.i: vm/controller/get_flags.c.i
 
-.PHONY : main.i
+.PHONY : vm/controller/get_flags.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/main.c.i
-.PHONY : main.c.i
+vm/controller/get_flags.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_flags.c.i
+.PHONY : vm/controller/get_flags.c.i
 
-main.s: main.c.s
+vm/controller/get_flags.s: vm/controller/get_flags.c.s
 
-.PHONY : main.s
+.PHONY : vm/controller/get_flags.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/main.c.s
-.PHONY : main.c.s
+vm/controller/get_flags.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_flags.c.s
+.PHONY : vm/controller/get_flags.c.s
+
+vm/controller/main.o: vm/controller/main.c.o
+
+.PHONY : vm/controller/main.o
+
+# target to build an object file
+vm/controller/main.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/main.c.o
+.PHONY : vm/controller/main.c.o
+
+vm/controller/main.i: vm/controller/main.c.i
+
+.PHONY : vm/controller/main.i
+
+# target to preprocess a source file
+vm/controller/main.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/main.c.i
+.PHONY : vm/controller/main.c.i
+
+vm/controller/main.s: vm/controller/main.c.s
+
+.PHONY : vm/controller/main.s
+
+# target to generate assembly for a file
+vm/controller/main.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/main.c.s
+.PHONY : vm/controller/main.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... vm/controller/get_flags.o"
+	@echo "... vm/controller/get_flags.i"
+	@echo "... vm/controller/get_flags.s"
+	@echo "... vm/controller/main.o"
+	@echo "... vm/controller/main.i"
+	@echo "... vm/controller/main.s"
 .PHONY : help
 
 

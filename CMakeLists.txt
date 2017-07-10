@@ -3,5 +3,6 @@ project(Corewar)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror")
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES vm/controller/main.c vm/includes/vm.h vm/controller/get_flags.c)
+
 add_executable(Corewar ${SOURCE_FILES})

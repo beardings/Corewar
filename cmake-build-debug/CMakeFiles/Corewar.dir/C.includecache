@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/m/mponomar/project/git/Corewar/main.c
+/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c
 stdio.h
 -
 
