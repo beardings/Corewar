@@ -16,6 +16,8 @@
 # include "../../libft/header/libft.h"
 # include <limits.h>
 # include <stdio.h>
+# define RED "\x1b[31m"
+# define END "\033[0m"
 
 typedef struct		s_player
 {
@@ -29,6 +31,7 @@ typedef struct		s_flags
 }					t_flags;
 
 void	print_comands(void);
-void	get_flags(t_flags *flags, char **argv);
+int		get_flags(t_flags *flags, char **argv);
+void	print_error(char *str);
 
 #endif

@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/main.c.o"
   )

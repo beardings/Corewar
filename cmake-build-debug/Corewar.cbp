@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c">
 			<Option target="Corewar"/>
 		</Unit>

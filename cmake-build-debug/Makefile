@@ -123,6 +123,87 @@ Corewar/fast:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/build
 .PHONY : Corewar/fast
 
+libft/libft/ft_atoi.o: libft/libft/ft_atoi.c.o
+
+.PHONY : libft/libft/ft_atoi.o
+
+# target to build an object file
+libft/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o
+.PHONY : libft/libft/ft_atoi.c.o
+
+libft/libft/ft_atoi.i: libft/libft/ft_atoi.c.i
+
+.PHONY : libft/libft/ft_atoi.i
+
+# target to preprocess a source file
+libft/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.i
+.PHONY : libft/libft/ft_atoi.c.i
+
+libft/libft/ft_atoi.s: libft/libft/ft_atoi.c.s
+
+.PHONY : libft/libft/ft_atoi.s
+
+# target to generate assembly for a file
+libft/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.s
+.PHONY : libft/libft/ft_atoi.c.s
+
+libft/libft/ft_isdigit.o: libft/libft/ft_isdigit.c.o
+
+.PHONY : libft/libft/ft_isdigit.o
+
+# target to build an object file
+libft/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o
+.PHONY : libft/libft/ft_isdigit.c.o
+
+libft/libft/ft_isdigit.i: libft/libft/ft_isdigit.c.i
+
+.PHONY : libft/libft/ft_isdigit.i
+
+# target to preprocess a source file
+libft/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.i
+.PHONY : libft/libft/ft_isdigit.c.i
+
+libft/libft/ft_isdigit.s: libft/libft/ft_isdigit.c.s
+
+.PHONY : libft/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+libft/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.s
+.PHONY : libft/libft/ft_isdigit.c.s
+
+libft/libft/ft_strcmp.o: libft/libft/ft_strcmp.c.o
+
+.PHONY : libft/libft/ft_strcmp.o
+
+# target to build an object file
+libft/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o
+.PHONY : libft/libft/ft_strcmp.c.o
+
+libft/libft/ft_strcmp.i: libft/libft/ft_strcmp.c.i
+
+.PHONY : libft/libft/ft_strcmp.i
+
+# target to preprocess a source file
+libft/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.i
+.PHONY : libft/libft/ft_strcmp.c.i
+
+libft/libft/ft_strcmp.s: libft/libft/ft_strcmp.c.s
+
+.PHONY : libft/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+libft/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.s
+.PHONY : libft/libft/ft_strcmp.c.s
+
 vm/controller/get_flags.o: vm/controller/get_flags.c.o
 
 .PHONY : vm/controller/get_flags.o
@@ -186,6 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Corewar"
+	@echo "... libft/libft/ft_atoi.o"
+	@echo "... libft/libft/ft_atoi.i"
+	@echo "... libft/libft/ft_atoi.s"
+	@echo "... libft/libft/ft_isdigit.o"
+	@echo "... libft/libft/ft_isdigit.i"
+	@echo "... libft/libft/ft_isdigit.s"
+	@echo "... libft/libft/ft_strcmp.o"
+	@echo "... libft/libft/ft_strcmp.i"
+	@echo "... libft/libft/ft_strcmp.s"
 	@echo "... vm/controller/get_flags.o"
 	@echo "... vm/controller/get_flags.i"
 	@echo "... vm/controller/get_flags.s"
