@@ -7,8 +7,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/get_players.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/help_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/main.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/print_func.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

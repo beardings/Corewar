@@ -177,13 +177,113 @@ CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o.provides: CMakeFiles/Corewar.d
 CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o
 
 
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../vm/controller/get_players.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Corewar.dir/vm/controller/get_players.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/get_players.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c
+
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/get_players.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c > CMakeFiles/Corewar.dir/vm/controller/get_players.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/get_players.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c -o CMakeFiles/Corewar.dir/vm/controller/get_players.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/get_players.c.o
+
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../vm/controller/create_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/create_fun.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c > CMakeFiles/Corewar.dir/vm/controller/create_fun.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/create_fun.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c -o CMakeFiles/Corewar.dir/vm/controller/create_fun.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o
+
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../vm/controller/print_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Corewar.dir/vm/controller/print_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/print_func.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/print_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c > CMakeFiles/Corewar.dir/vm/controller/print_func.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/print_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c -o CMakeFiles/Corewar.dir/vm/controller/print_func.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o
+
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.o: ../vm/controller/help_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Corewar.dir/vm/controller/help_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/help_func.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/help_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c > CMakeFiles/Corewar.dir/vm/controller/help_func.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/help_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c -o CMakeFiles/Corewar.dir/vm/controller/help_func.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o
+
+
 # Object files for target Corewar
 Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/vm/controller/main.c.o" \
 "CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o" \
 "CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o" \
 "CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o" \
-"CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o"
+"CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/get_players.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/print_func.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/help_func.c.o"
 
 # External object files for target Corewar
 Corewar_EXTERNAL_OBJECTS =
@@ -193,9 +293,13 @@ Corewar: CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/get_players.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: CMakeFiles/Corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +312,10 @@ CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/get_flags.
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/get_players.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.requires
 
 .PHONY : CMakeFiles/Corewar.dir/requires
 

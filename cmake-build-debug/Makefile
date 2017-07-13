@@ -204,6 +204,33 @@ libft/libft/ft_strcmp.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.s
 .PHONY : libft/libft/ft_strcmp.c.s
 
+vm/controller/create_fun.o: vm/controller/create_fun.c.o
+
+.PHONY : vm/controller/create_fun.o
+
+# target to build an object file
+vm/controller/create_fun.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o
+.PHONY : vm/controller/create_fun.c.o
+
+vm/controller/create_fun.i: vm/controller/create_fun.c.i
+
+.PHONY : vm/controller/create_fun.i
+
+# target to preprocess a source file
+vm/controller/create_fun.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/create_fun.c.i
+.PHONY : vm/controller/create_fun.c.i
+
+vm/controller/create_fun.s: vm/controller/create_fun.c.s
+
+.PHONY : vm/controller/create_fun.s
+
+# target to generate assembly for a file
+vm/controller/create_fun.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/create_fun.c.s
+.PHONY : vm/controller/create_fun.c.s
+
 vm/controller/get_flags.o: vm/controller/get_flags.c.o
 
 .PHONY : vm/controller/get_flags.o
@@ -230,6 +257,60 @@ vm/controller/get_flags.s: vm/controller/get_flags.c.s
 vm/controller/get_flags.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_flags.c.s
 .PHONY : vm/controller/get_flags.c.s
+
+vm/controller/get_players.o: vm/controller/get_players.c.o
+
+.PHONY : vm/controller/get_players.o
+
+# target to build an object file
+vm/controller/get_players.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_players.c.o
+.PHONY : vm/controller/get_players.c.o
+
+vm/controller/get_players.i: vm/controller/get_players.c.i
+
+.PHONY : vm/controller/get_players.i
+
+# target to preprocess a source file
+vm/controller/get_players.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_players.c.i
+.PHONY : vm/controller/get_players.c.i
+
+vm/controller/get_players.s: vm/controller/get_players.c.s
+
+.PHONY : vm/controller/get_players.s
+
+# target to generate assembly for a file
+vm/controller/get_players.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/get_players.c.s
+.PHONY : vm/controller/get_players.c.s
+
+vm/controller/help_func.o: vm/controller/help_func.c.o
+
+.PHONY : vm/controller/help_func.o
+
+# target to build an object file
+vm/controller/help_func.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/help_func.c.o
+.PHONY : vm/controller/help_func.c.o
+
+vm/controller/help_func.i: vm/controller/help_func.c.i
+
+.PHONY : vm/controller/help_func.i
+
+# target to preprocess a source file
+vm/controller/help_func.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/help_func.c.i
+.PHONY : vm/controller/help_func.c.i
+
+vm/controller/help_func.s: vm/controller/help_func.c.s
+
+.PHONY : vm/controller/help_func.s
+
+# target to generate assembly for a file
+vm/controller/help_func.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/help_func.c.s
+.PHONY : vm/controller/help_func.c.s
 
 vm/controller/main.o: vm/controller/main.c.o
 
@@ -258,6 +339,33 @@ vm/controller/main.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/main.c.s
 .PHONY : vm/controller/main.c.s
 
+vm/controller/print_func.o: vm/controller/print_func.c.o
+
+.PHONY : vm/controller/print_func.o
+
+# target to build an object file
+vm/controller/print_func.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/print_func.c.o
+.PHONY : vm/controller/print_func.c.o
+
+vm/controller/print_func.i: vm/controller/print_func.c.i
+
+.PHONY : vm/controller/print_func.i
+
+# target to preprocess a source file
+vm/controller/print_func.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/print_func.c.i
+.PHONY : vm/controller/print_func.c.i
+
+vm/controller/print_func.s: vm/controller/print_func.c.s
+
+.PHONY : vm/controller/print_func.s
+
+# target to generate assembly for a file
+vm/controller/print_func.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/print_func.c.s
+.PHONY : vm/controller/print_func.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,12 +384,24 @@ help:
 	@echo "... libft/libft/ft_strcmp.o"
 	@echo "... libft/libft/ft_strcmp.i"
 	@echo "... libft/libft/ft_strcmp.s"
+	@echo "... vm/controller/create_fun.o"
+	@echo "... vm/controller/create_fun.i"
+	@echo "... vm/controller/create_fun.s"
 	@echo "... vm/controller/get_flags.o"
 	@echo "... vm/controller/get_flags.i"
 	@echo "... vm/controller/get_flags.s"
+	@echo "... vm/controller/get_players.o"
+	@echo "... vm/controller/get_players.i"
+	@echo "... vm/controller/get_players.s"
+	@echo "... vm/controller/help_func.o"
+	@echo "... vm/controller/help_func.i"
+	@echo "... vm/controller/help_func.s"
 	@echo "... vm/controller/main.o"
 	@echo "... vm/controller/main.i"
 	@echo "... vm/controller/main.s"
+	@echo "... vm/controller/print_func.o"
+	@echo "... vm/controller/print_func.i"
+	@echo "... vm/controller/print_func.s"
 .PHONY : help
 
 

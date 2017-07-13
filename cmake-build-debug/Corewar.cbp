@@ -91,10 +91,22 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c">
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h">

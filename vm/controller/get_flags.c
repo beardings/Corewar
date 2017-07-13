@@ -1,11 +1,5 @@
 #include "../includes/vm.h"
 
-void	print_error(char *str)
-{
-	printf(RED"ERROR!"END);
-	printf(" %s\n", str);
-}
-
 int		is_digit(char *str)
 {
 	int i;
@@ -52,7 +46,7 @@ int	take_d(t_flags **flags, char **argv)
 		}
 		i++;
 	}
-	if ((*flags)->dump < 0)
+	if ((*flags)->dump < 0 && yes == 1)
 	{
 		print_error("Too high a value of cycle.");
 		return (0);

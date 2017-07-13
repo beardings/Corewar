@@ -13,25 +13,36 @@
 #ifndef VM_H
 # define VM_H
 
+# include "op.h"
 # include "../../libft/header/libft.h"
 # include <limits.h>
 # include <stdio.h>
 # define RED "\x1b[31m"
 # define END "\033[0m"
 
-typedef struct		s_player
+typedef struct			s_players
 {
-	int 			x;
-}					t_player;
+	header_t			*header;
+	unsigned char		*comands;
+	int					live;
+	int					live_amount;
+	int					num;
+	int					vis_num;
+	int 				pos;
+	struct t_players	*next;
 
-typedef struct		s_flags
+}						t_players;
+
+typedef struct			s_flags
 {
-	int 			visual;
-	int				dump;
-}					t_flags;
+	int 				visual;
+	int					dump;
+}						t_flags;
 
-void	print_comands(void);
-int		get_flags(t_flags *flags, char **argv);
-void	print_error(char *str);
+void					print_comands(void);
+int						get_flags(t_flags *flags, char **argv);
+void					print_error(char *str);
+t_flags					*create_flags(void);
+t_players				*get_players(char **argv, int argc);
 
 #endif
