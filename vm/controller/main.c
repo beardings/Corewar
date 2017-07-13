@@ -15,13 +15,13 @@ int		check_n_flags(char **argv, int argc)
 	}
 	if (n > 0)
 	{
-		print_error("To many arguments (-v).");
+		print_error("To many arguments (-n).");
 		return (0);
 	}
 	return (1);
 }
 
-int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
+int 	check_flags_for_players(int argc, t_flags *flags, char **argv) // нужно переделать0
 {
 	int len;
 
@@ -30,7 +30,18 @@ int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
 	flags->dump > -1 ? len-- : 0;
 	if (!(check_n_flags(argv, argc)))
 		return (0);
-	while ()
+	if (argc > 0 && !ft_strcmp(argv[1], "-n"))
+		len--;
+	else if (argc > 1 && !ft_strcmp(argv[2], "-n"))
+		len--;
+	else if (argc > 2 && !ft_strcmp(argv[3], "-n"))
+		len--;
+	if (len < 1)
+	{
+		print_error("To many arguments (-v1).");
+		return (0);
+	}
+	return (1);
 }
 
 int		main(int argc, char **argv)
