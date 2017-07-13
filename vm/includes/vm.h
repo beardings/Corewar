@@ -44,5 +44,6 @@ int						get_flags(t_flags *flags, char **argv);
 void					print_error(char *str);
 t_flags					*create_flags(void);
 t_players				*get_players(char **argv, int argc);
+t_players 				*create_players(void);
 
 #endif

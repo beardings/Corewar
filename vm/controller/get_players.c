@@ -4,6 +4,6 @@ t_players		*get_players(char **argv, int argc)
 {
 	t_players *players;
 
-	players = ceate_players();
+	players = create_players();
 	return (players);
 }
