@@ -21,7 +21,7 @@ int		check_n_flags(char **argv, int argc)
 	return (1);
 }
 
-int 	check_flags_for_players(int argc, t_flags *flags, char **argv) // нужно переделать0
+int 	check_flags_for_players(int argc, t_flags *flags, char **argv) // нужно переделать
 {
 	int len;
 
