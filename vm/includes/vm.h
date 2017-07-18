@@ -22,7 +22,7 @@
 
 typedef struct			s_players
 {
-	header_t			*header;
+	header_t			header;
 	unsigned char		*comands;
 	int					live;
 	int					live_amount;
@@ -45,5 +45,6 @@ void					print_error(char *str);
 t_flags					*create_flags(void);
 t_players				*get_players(char **argv, int argc);
 t_players 				*create_players(void);
+int						is_digit(char *str);
 
 #endif

@@ -10,20 +10,11 @@ t_flags *create_flags(void)
 	return (flags);
 }
 
-header_t *create_header(void)
-{
-	header_t *header;
-
-	header = (header_t *)malloc(sizeof(header_t));
-	return(header);
-}
-
 t_players *create_players(void)
 {
 	t_players *players;
 
 	players = (t_players *)malloc(sizeof(t_players));
-	players->header = create_header();
 	players->comands = NULL;
 	players->live = 0;
 	players->live_amount = 0;
