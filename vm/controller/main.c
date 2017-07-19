@@ -105,7 +105,7 @@ int		main(int argc, char **argv)
 		return (0);
 	if ((check_flags_for_players(argc - 1, flags, argv)) == 0)
 		return (0);
-	players = get_players(argv, argc);
+	players = get_players(argv, argc - 1);
 	//start_vm(players, flags);
 	return (0);
 }
