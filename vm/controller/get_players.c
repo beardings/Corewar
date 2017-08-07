@@ -1,6 +1,6 @@
 #include "../includes/vm.h"
 
-t_players		*get_players(char **argv, int argc)
+/*t_players		*get_players(char **argv, int argc)
 {
     t_players *players;
     int i;
@@ -17,4 +17,4 @@ t_players		*get_players(char **argv, int argc)
         i++;
     }
 	return (players);
-}
+}*/
