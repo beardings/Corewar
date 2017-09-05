@@ -12,14 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2680a92-3000-4d87-9f7d-6561e3bb0f51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Corewar" afterPath="$PROJECT_DIR$/cmake-build-debug/Corewar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Corewar.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Corewar.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm/controller/create_fun.c" afterPath="$PROJECT_DIR$/vm/controller/create_fun.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm/controller/main.c" afterPath="$PROJECT_DIR$/vm/controller/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm/includes/vm.h" afterPath="$PROJECT_DIR$/vm/includes/vm.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -557,7 +550,7 @@
       <workItem from="1501601122031" duration="1256000" />
       <workItem from="1502103502998" duration="976000" />
       <workItem from="1502200272908" duration="282000" />
-      <workItem from="1504623447989" duration="3142000" />
+      <workItem from="1504623447989" duration="3248000" />
     </task>
     <task id="LOCAL-00001" summary="corewar">
       <created>1499436790866</created>
@@ -643,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502103536004</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add asm">
+      <created>1504630525732</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504630525732</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47441000" />
+    <option name="totallyTimeSpent" value="47547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -687,7 +687,8 @@
     <MESSAGE value="yeeeeeeees!" />
     <MESSAGE value="correct func" />
     <MESSAGE value="bla" />
-    <option name="LAST_COMMIT_MESSAGE" value="bla" />
+    <MESSAGE value="add asm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add asm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
