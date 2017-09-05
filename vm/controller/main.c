@@ -93,7 +93,7 @@ int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
 int		main(int argc, char **argv)
 {
 	t_flags *flags;
-	//t_players *players;
+	t_players *players;
 
 	if (argc < 2)
 	{
@@ -105,7 +105,7 @@ int		main(int argc, char **argv)
 		return (0);
 	if ((check_flags_for_players(argc - 1, flags, argv)) == 0)
 		return (0);
-	//players = get_players(argv, argc - 1);
+	players = get_players(argv, argc - 1);
 	//start_vm(players, flags);
 	return (0);
 }

@@ -24,11 +24,9 @@ typedef struct			s_players
 {
 	header_t			header;
 	unsigned char		*comands;
+    int                 num;
 	int					live;
 	int					live_amount;
-	int					num;
-	int					vis_num;
-	int 				pos;
 	struct t_players	*next;
 
 }						t_players;
