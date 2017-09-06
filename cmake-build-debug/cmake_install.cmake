@@ -1,4 +1,4 @@
-# Install script for directory: /nfs/2016/m/mponomar/project/git/Corewar
+# Install script for directory: /Users/mponomar/CLionProjects/Corewar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mponomar/CLionProjects/Corewar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

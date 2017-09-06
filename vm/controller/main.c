@@ -1,5 +1,21 @@
 #include "../includes/vm.h"
 
+int     check_amount(t_flags *flags)
+{
+    if (flags->amount_players > 4)
+    {
+        print_error("To many Players, maximum 4.");
+        return (0);
+    }
+    else if (flags->amount_num > 4)
+    {
+        print_error("To many number of Player. Read usage (Enter ./corewar).");
+        return (0);
+    }
+    else
+        return (1);
+}
+
 int		check_n_flags(char **argv, int argc)
 {
 	int i;
@@ -53,7 +69,6 @@ int     check_first_par(char **argv, int len)
 int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
 {
     int len;
-    int fd;
 
     len = 0;
     flags->visual == 1 ? len++ : 0;
@@ -73,23 +88,37 @@ int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
                 print_error("Unknown number of Player.");
                 return (0);
             }
+            flags->amount_num++;
+            len++;
+            argc--;
+            if ((open(argv[len + 1], O_RDONLY)) == -1)
+            {
+                print_error("Unknown arguments. Please read usage (Enter ./corewar).");
+                return (0);
+            }
+            flags->amount_players++;
             len++;
             argc--;
         }
         else
         {
-            if ((fd = open(argv[len], O_RDONLY)) == -1)
+            if ((open(argv[len], O_RDONLY)) == -1)
             {
                 print_error("Unknown arguments.");
                 return (0);
             }
+            flags->amount_players++;
         }
         len++;
         argc--;
     }
+    if ((check_amount(flags)) == 0)
+        return (0);
 	return (1);
 }
 
+
+// need to check int max for the number of players
 int		main(int argc, char **argv)
 {
 	t_flags *flags;
@@ -105,7 +134,9 @@ int		main(int argc, char **argv)
 		return (0);
 	if ((check_flags_for_players(argc - 1, flags, argv)) == 0)
 		return (0);
-	players = get_players(argv, argc - 1);
+    players = create_players();
+	if ((get_players(players, argv, argc - 1, flags) == 0))
+        return (0);
 	//start_vm(players, flags);
 	return (0);
 }

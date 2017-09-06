@@ -22,26 +22,28 @@
 
 typedef struct			s_players
 {
-	header_t			header;
+	header_t			*header;
 	unsigned char		*comands;
     int                 num;
 	int					live;
 	int					live_amount;
-	struct t_players	*next;
-
+	char				*comment;
+	struct s_players	*next;
 }						t_players;
 
 typedef struct			s_flags
 {
 	int 				visual;
 	int					dump;
+	int					amount_players;
+	int					amount_num;
 }						t_flags;
 
 void					print_comands(void);
 int						get_flags(t_flags *flags, char **argv);
 void					print_error(char *str);
 t_flags					*create_flags(void);
-t_players				*get_players(char **argv, int argc);
+int						get_players(t_players *players, char **argv, int argc, t_flags *flags);
 t_players 				*create_players(void);
 int						is_digit(char *str);
 
