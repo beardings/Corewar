@@ -199,7 +199,7 @@ int		main(int argc, char **argv)
 	if ((check_flags_for_players(argc - 1, flags, argv)) == 0)
 		return (0);
     players = create_players();
-	if ((get_players(players, argv, argc - 1, flags) == 0))
+	if ((get_players(players, argv, argc, flags) == 0))
         return (0);
     change_first_reg_players(&players);
     print_data_players(&players);

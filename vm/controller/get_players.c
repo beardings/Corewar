@@ -93,11 +93,11 @@ int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
         else
             if ((check_cor_file(&players, argv[i]) == 0))
                 return (0);
+        i++;
         while (players->next != NULL)
             players = players->next;
         i != argc ? players->next = create_players() : 0;
         i != argc ? players = players->next : 0;
-        i++;
     }
     players = tmp;
     return (1);
