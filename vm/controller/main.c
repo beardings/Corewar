@@ -117,8 +117,72 @@ int 	check_flags_for_players(int argc, t_flags *flags, char **argv)
 	return (1);
 }
 
+void    change_first_reg_players(t_players **players)
+{
+    t_players *tmp;
+    unsigned int *reg;
+    int i;
+    int what;
 
-// need to check int max for the number of players
+    what = 1;
+    tmp = *players;
+    if (tmp->header.magic == 0)
+        return ;
+    while (tmp != NULL)
+    {
+        reg = (unsigned int *)malloc(sizeof(unsigned int) * 16);
+        i = 0;
+        while (i < 16)
+        {
+            reg[i] = 0;
+            i++;
+        }
+        if (tmp->num != -1)
+        {
+            tmp->reg = reg;
+            tmp->reg[0] = tmp->num * -1;
+        }
+        else
+        {
+            tmp->reg = reg;
+            tmp->reg[0] = what * -1;
+            tmp->num = what;
+            what++;
+        }
+        tmp = tmp->next;
+    }
+}
+
+int ft_swap_players(t_players **players, int amount_players)
+{
+    t_players *tmp;
+    t_players *tmp1;
+    t_players *player;
+
+    if (!amount_players)
+    {
+        print_comands();
+        return (0);
+    }
+    else if (amount_players == 1)
+       return (1);
+    player = *players;
+    tmp = player->next;
+    tmp1 = tmp->next;
+    player->next = NULL;
+    tmp->next = player;
+    while (tmp1)
+    {
+        player = tmp;
+        tmp = tmp1;
+        tmp1 = tmp1->next;
+        tmp->next = player;
+    }
+    *players = tmp;
+    return (1);
+}
+
+// баг если я принимаю игока без всех флагов то последнего не находит
 int		main(int argc, char **argv)
 {
 	t_flags *flags;
@@ -137,38 +201,10 @@ int		main(int argc, char **argv)
     players = create_players();
 	if ((get_players(players, argv, argc - 1, flags) == 0))
         return (0);
-    ft_swap_players(&players, flags->amount_players);
+    change_first_reg_players(&players);
+    print_data_players(&players);
+    if ((ft_swap_players(&players, flags->amount_players) == 0))
+        return (0);
 	//start_vm(players, flags);
 	return (0);
-}
-
-int ft_swap_players(t_players **players, int amount_players)
-{
-    t_players *tmp;
-    t_players *tmp1;
-    t_players *player;
-
-    if (!amount_players)
-    {
-        print_comands();
-        return (0);
-    }
-    else if (amount_players == 1)
-        return (1);
-
-    player = *players;
-    tmp = player->next;
-    tmp1 = tmp->next;
-    player->next = NULL;
-    tmp->next = player;
-    while (tmp1)
-    {
-        player = tmp;
-        tmp = tmp1;
-        tmp1 = tmp1->next;
-        tmp->next = player;
-
-    }
-    *players = tmp;
-    return (1);
 }

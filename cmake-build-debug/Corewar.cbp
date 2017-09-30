@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Corewar">
-				<Option output="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option output="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Corewar/fast">
-				<Option output="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option output="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,44 +75,44 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_atoi.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_isdigit.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_strcmp.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/create_fun.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/get_flags.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/get_players.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/help_func.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/help_func.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/main.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/main.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/print_func.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/print_func.c">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h">
 			<Option target="Corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/y/ybelilov/CLionProjects/Corewar/CMakeLists.txt">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

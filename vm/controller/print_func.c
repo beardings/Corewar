@@ -24,3 +24,17 @@ void	print_comands(void)
 	printf("--------------------------------------------------------------\n");
 	printf("\n");
 }
+
+void	print_data_players(t_players **players)
+{
+	t_players *tmp;
+
+	tmp = *players;
+	if (tmp->header.magic == 0)
+		return ;
+	while (tmp != NULL)
+	{
+		printf("* Player %d, weighing %u bytes, <%s> (%s) !\n", tmp->num, tmp->header.prog_size, tmp->header.prog_name, tmp->header.comment);
+		tmp = tmp->next;
+	}
+}

@@ -19,12 +19,12 @@ void        get_another_data(t_players **tmp, int fd)
 {
     unsigned char   *com;
 
-    com = malloc(((*tmp)->header->prog_size));
-    read(fd, com, (*tmp)->header->prog_size);
+    com = malloc(((*tmp)->header.prog_size));
+    read(fd, com, (*tmp)->header.prog_size);
+    // нужно закинуть в итоа бейс - сом как инт и перевести по 1 байту в 16 системе
     (*tmp)->comands = com;
 }
 
-// нужно вписывать нормальный номер игрока
 int        check_cor_file(t_players **tmp, char *cor_file)
 {
     int fd;
@@ -47,18 +47,15 @@ int        check_cor_file(t_players **tmp, char *cor_file)
         print_error("Magic kay are not correct.");
         return (0);
     }
-    (*tmp)->header = header;
+    (*tmp)->header = *header;
     get_another_data(tmp, fd);
+    free(str);
     return (1);
 
 }
 
-
 int     check_valid_player_num(char *num)
 {
-    int i;
-
-    i = -1;
     if (!is_digit(num))
     {
         print_error("Player number must be a number");
@@ -72,7 +69,7 @@ int     check_valid_player_num(char *num)
     return (1);
 }
 
-
+//yyewed
 // я могу принимать игроков и без n номера игрока, нужно нормально чекать
 int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
 {

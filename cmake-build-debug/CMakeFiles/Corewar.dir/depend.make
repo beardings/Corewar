@@ -7,22 +7,16 @@ CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o: ../libft/libft/ft_isdigit.c
 
 CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o: ../libft/libft/ft_strcmp.c
 
-CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/ft_printf.h
-CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../vm/controller/create_fun.c
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../vm/includes/op.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../vm/includes/vm.h
 
-CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../libft/header/ft_printf.h
-CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../vm/controller/get_flags.c
 CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../vm/includes/op.h
 CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o: ../vm/includes/vm.h
 
-CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../libft/header/ft_printf.h
-CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../vm/controller/get_players.c
 CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../vm/includes/op.h
@@ -30,15 +24,11 @@ CMakeFiles/Corewar.dir/vm/controller/get_players.c.o: ../vm/includes/vm.h
 
 CMakeFiles/Corewar.dir/vm/controller/help_func.c.o: ../vm/controller/help_func.c
 
-CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../libft/header/ft_printf.h
-CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../vm/controller/main.c
 CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../vm/includes/op.h
 CMakeFiles/Corewar.dir/vm/controller/main.c.o: ../vm/includes/vm.h
 
-CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../libft/header/ft_printf.h
-CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../vm/controller/print_func.c
 CMakeFiles/Corewar.dir/vm/controller/print_func.c.o: ../vm/includes/op.h

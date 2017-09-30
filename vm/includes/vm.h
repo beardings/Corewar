@@ -22,12 +22,16 @@
 
 typedef struct			s_players
 {
-	header_t			*header;
+	header_t			header;
 	unsigned char		*comands;
     int                 num;
 	int					live;
 	int					live_amount;
-	char				*comment;
+	int                 pos;
+	unsigned int        *reg;
+	int                 stop;
+	int                 carry;
+	int                 *live_ptr;
 	struct s_players	*next;
 }						t_players;
 
@@ -40,12 +44,14 @@ typedef struct			s_flags
 }						t_flags;
 
 void					print_comands(void);
-int						get_flags(t_flags *flags, char **argv);
+void					print_data_players(t_players **players);
 void					print_error(char *str);
-t_flags					*create_flags(void);
+int						get_flags(t_flags *flags, char **argv);
 int						get_players(t_players *players, char **argv, int argc, t_flags *flags);
-t_players 				*create_players(void);
 int						is_digit(char *str);
+t_flags					*create_flags(void);
+t_players 				*create_players(void);
 long long int			ft_atoiLong(const char *str);
 int                     ft_swap_players(t_players **players, int amount_players);
+
 #endif
