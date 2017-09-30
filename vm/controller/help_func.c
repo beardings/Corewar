@@ -1,6 +1,5 @@
-//
-// Created by Mykola Ponomarov on 12.07.17.
-//
+#include "../includes/vm.h"
+
 long long int			ft_atoiLong(const char *str)
 {
     long long int		i;

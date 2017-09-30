@@ -69,7 +69,6 @@ int     check_valid_player_num(char *num)
     return (1);
 }
 
-//yyewed
 // я могу принимать игроков и без n номера игрока, нужно нормально чекать
 int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
 {
