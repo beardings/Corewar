@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/mponomar/CLionProjects/Corewar/libft/header/ft_printf.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/ft_printf.h
 stdarg.h
 -
 libft.h
-/Users/mponomar/CLionProjects/Corewar/libft/header/libft.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/libft.h
 
-/Users/mponomar/CLionProjects/Corewar/libft/header/get_next_line.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/get_next_line.h
 fcntl.h
 -
 libft.h
-/Users/mponomar/CLionProjects/Corewar/libft/header/libft.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/libft.h
 
-/Users/mponomar/CLionProjects/Corewar/libft/header/libft.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/libft.h
 unistd.h
 -
 string.h
@@ -26,45 +26,45 @@ string.h
 stdlib.h
 -
 ft_printf.h
-/Users/mponomar/CLionProjects/Corewar/libft/header/ft_printf.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/ft_printf.h
 get_next_line.h
-/Users/mponomar/CLionProjects/Corewar/libft/header/get_next_line.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/get_next_line.h
 
-/Users/mponomar/CLionProjects/Corewar/libft/libft/ft_atoi.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_atoi.c
 
-/Users/mponomar/CLionProjects/Corewar/libft/libft/ft_isdigit.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_isdigit.c
 
-/Users/mponomar/CLionProjects/Corewar/libft/libft/ft_strcmp.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/libft/ft_strcmp.c
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/create_fun.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/create_fun.c
 ../includes/vm.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/get_flags.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/get_flags.c
 ../includes/vm.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/get_players.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/get_players.c
 ../includes/vm.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/help_func.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/help_func.c
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/main.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/main.c
 ../includes/vm.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/controller/print_func.c
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/controller/print_func.c
 ../includes/vm.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/includes/op.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/op.h
 
-/Users/mponomar/CLionProjects/Corewar/vm/includes/vm.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/vm.h
 op.h
-/Users/mponomar/CLionProjects/Corewar/vm/includes/op.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/vm/includes/op.h
 ../../libft/header/libft.h
-/Users/mponomar/CLionProjects/Corewar/libft/header/libft.h
+/nfs/2016/y/ybelilov/CLionProjects/Corewar/libft/header/libft.h
 limits.h
 -
 stdio.h

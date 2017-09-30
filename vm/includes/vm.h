@@ -46,5 +46,6 @@ t_flags					*create_flags(void);
 int						get_players(t_players *players, char **argv, int argc, t_flags *flags);
 t_players 				*create_players(void);
 int						is_digit(char *str);
-
+long long int			ft_atoiLong(const char *str);
+int                     ft_swap_players(t_players **players, int amount_players);
 #endif

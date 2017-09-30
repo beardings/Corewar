@@ -53,6 +53,26 @@ int        check_cor_file(t_players **tmp, char *cor_file)
 
 }
 
+
+int     check_valid_player_num(char *num)
+{
+    int i;
+
+    i = -1;
+    if (!is_digit(num))
+    {
+        print_error("Player number must be a number");
+        return (0);
+    }
+    if (ft_atoiLong(num) > INT_MAX)
+    {
+        print_error("Player number must not be greater than maxint");
+        return (0);
+    }
+    return (1);
+}
+
+
 // я могу принимать игроков и без n номера игрока, нужно нормально чекать
 int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
 {
@@ -67,6 +87,8 @@ int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
     {
         if (!(ft_strcmp(argv[i], "-n")))
         {
+            if (!check_valid_player_num(argv[i + 1]))
+                return (0);
             players->num = ft_atoi(argv[i + 1]);
             i += 2;
             if ((check_cor_file(&players, argv[i]) == 0))

@@ -137,6 +137,38 @@ int		main(int argc, char **argv)
     players = create_players();
 	if ((get_players(players, argv, argc - 1, flags) == 0))
         return (0);
+    ft_swap_players(&players, flags->amount_players);
 	//start_vm(players, flags);
 	return (0);
+}
+
+int ft_swap_players(t_players **players, int amount_players)
+{
+    t_players *tmp;
+    t_players *tmp1;
+    t_players *player;
+
+    if (!amount_players)
+    {
+        print_comands();
+        return (0);
+    }
+    else if (amount_players == 1)
+        return (1);
+
+    player = *players;
+    tmp = player->next;
+    tmp1 = tmp->next;
+    player->next = NULL;
+    tmp->next = player;
+    while (tmp1)
+    {
+        player = tmp;
+        tmp = tmp1;
+        tmp1 = tmp1->next;
+        tmp->next = player;
+
+    }
+    *players = tmp;
+    return (1);
 }

@@ -37,7 +37,7 @@ int	take_d(t_flags **flags, char **argv)
 	{
 		if (!ft_strcmp(argv[i], "-d"))
 		{
-			if (!argv[i + 1] || !(is_digit(argv[i + 1])))
+			if (!argv[i + 1] || !is_digit(argv[i + 1]) || ft_atoiLong(argv[i + 1]) > INT_MAX)
 			{
 				print_error("Unknown number of the cycle.");
 				return (0);
