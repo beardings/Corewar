@@ -273,6 +273,174 @@ CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides: CMakeFiles/Corewar.
 CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o
 
 
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: ../libft/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c > CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c -o CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: ../libft/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcat.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcat.c > CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcat.c -o CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: ../libft/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcpy.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcpy.c > CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcpy.c -o CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: ../libft/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c > CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c -o CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c > CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c -o CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: ../libft/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_bzero.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_bzero.c > CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_bzero.c -o CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o
+
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: ../libft/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_memset.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_memset.c > CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.i
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_memset.c -o CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.s
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.requires
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides
+
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o
+
+
 # Object files for target Corewar
 Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/vm/controller/main.c.o" \
@@ -283,7 +451,14 @@ Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/vm/controller/get_players.c.o" \
 "CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o" \
 "CMakeFiles/Corewar.dir/vm/controller/print_func.c.o" \
-"CMakeFiles/Corewar.dir/vm/controller/help_func.c.o"
+"CMakeFiles/Corewar.dir/vm/controller/help_func.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o" \
+"CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o"
 
 # External object files for target Corewar
 Corewar_EXTERNAL_OBJECTS =
@@ -297,9 +472,16 @@ Corewar: CMakeFiles/Corewar.dir/vm/controller/get_players.c.o
 Corewar: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o
 Corewar: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o
 Corewar: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o
+Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: CMakeFiles/Corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable Corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +498,13 @@ CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/get_player
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/print_func.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/help_func.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.requires
 
 .PHONY : CMakeFiles/Corewar.dir/requires
 

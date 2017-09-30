@@ -15,14 +15,52 @@ unsigned int  change_bite(unsigned int num)
     return (num);
 }
 
+char	*ten_hex(int i, char *str, int size)
+{
+    char	*m;
+    char	*tmp;
+    int		l;
+
+    l = 0;
+    m = (char *)malloc(sizeof(char) * (size + 1));
+    *(m + size) = '\0';
+    while (l < size)
+        m[l++] = '0';
+    l--;
+    while (i && l >= 0)
+    {
+        m[l] = HEX[i % 16];
+        l--;
+        i = i / 16;
+    }
+    if (!str)
+        return (m);
+    tmp = ft_strjoin(str, m);
+    free(str);
+    free(m);
+    return (tmp);
+}
+
 void        get_another_data(t_players **tmp, int fd)
 {
     unsigned char   *com;
+    char *str;
+    char *tmp1;
+    int i;
 
+    i = 0;
+    str = NULL;
     com = malloc(((*tmp)->header.prog_size));
     read(fd, com, (*tmp)->header.prog_size);
     // нужно закинуть в итоа бейс - сом как инт и перевести по 1 байту в 16 системе
-    (*tmp)->comands = com;
+    while (com[i] != '\0')
+    {
+        if (str == NULL)
+            tmp1 = ten_hex((int)com[i], NULL, 1);
+
+        i++;
+    }
+    (*tmp)->comands = str;
 }
 
 int        check_cor_file(t_players **tmp, char *cor_file)
@@ -54,7 +92,8 @@ int        check_cor_file(t_players **tmp, char *cor_file)
 
 }
 
-int     check_valid_player_num(char *num)
+
+int     check_valid_player_num(char *num/*, t_players *players*/)
 {
     if (!is_digit(num))
     {
@@ -66,10 +105,18 @@ int     check_valid_player_num(char *num)
         print_error("Player number must not be greater than maxint");
         return (0);
     }
+/*    while (players)
+    {
+        if (ft_strcmp(players->header.prog_name, num))
+        {
+            print_error("Choose different names for players");
+            return (0);
+        }
+        players = players->next;
+    }*/
     return (1);
-}
+    }
 
-// я могу принимать игроков и без n номера игрока, нужно нормально чекать
 int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
 {
     t_players *tmp;
@@ -83,7 +130,7 @@ int		get_players(t_players *players, char **argv, int argc, t_flags *flags)
     {
         if (!(ft_strcmp(argv[i], "-n")))
         {
-            if (!check_valid_player_num(argv[i + 1]))
+            if (!check_valid_player_num(argv[i + 1]/*, players*/))
                 return (0);
             players->num = ft_atoi(argv[i + 1]);
             i += 2;

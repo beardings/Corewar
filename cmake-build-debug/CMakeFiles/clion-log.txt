@@ -1,12 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /nfs/2016/m/mponomar/project/git/Corewar
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 6. Offending entry: >>>>>>> origin/master
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 194. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 204. Offending entry: >>>>>>> origin/master
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 217. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 221. Offending entry: >>>>>>> origin/master
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 292. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt on line 296. Offending entry: >>>>>>> origin/master
-CMake Error: The current CMakeCache.txt directory /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeCache.txt is different than the directory /nfs/2016/y/ybelilov/CLionProjects/Corewar/cmake-build-debug where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-CMake Error: The source "/nfs/2016/m/mponomar/project/git/Corewar/CMakeLists.txt" does not match the source "/nfs/2016/y/ybelilov/CLionProjects/Corewar/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
-Cannot read project file /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/Corewar.cbp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug

@@ -150,6 +150,33 @@ libft/libft/ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.s
 .PHONY : libft/libft/ft_atoi.c.s
 
+libft/libft/ft_bzero.o: libft/libft/ft_bzero.c.o
+
+.PHONY : libft/libft/ft_bzero.o
+
+# target to build an object file
+libft/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o
+.PHONY : libft/libft/ft_bzero.c.o
+
+libft/libft/ft_bzero.i: libft/libft/ft_bzero.c.i
+
+.PHONY : libft/libft/ft_bzero.i
+
+# target to preprocess a source file
+libft/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.i
+.PHONY : libft/libft/ft_bzero.c.i
+
+libft/libft/ft_bzero.s: libft/libft/ft_bzero.c.s
+
+.PHONY : libft/libft/ft_bzero.s
+
+# target to generate assembly for a file
+libft/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.s
+.PHONY : libft/libft/ft_bzero.c.s
+
 libft/libft/ft_isdigit.o: libft/libft/ft_isdigit.c.o
 
 .PHONY : libft/libft/ft_isdigit.o
@@ -177,6 +204,60 @@ libft/libft/ft_isdigit.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.s
 .PHONY : libft/libft/ft_isdigit.c.s
 
+libft/libft/ft_memset.o: libft/libft/ft_memset.c.o
+
+.PHONY : libft/libft/ft_memset.o
+
+# target to build an object file
+libft/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o
+.PHONY : libft/libft/ft_memset.c.o
+
+libft/libft/ft_memset.i: libft/libft/ft_memset.c.i
+
+.PHONY : libft/libft/ft_memset.i
+
+# target to preprocess a source file
+libft/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.i
+.PHONY : libft/libft/ft_memset.c.i
+
+libft/libft/ft_memset.s: libft/libft/ft_memset.c.s
+
+.PHONY : libft/libft/ft_memset.s
+
+# target to generate assembly for a file
+libft/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.s
+.PHONY : libft/libft/ft_memset.c.s
+
+libft/libft/ft_strcat.o: libft/libft/ft_strcat.c.o
+
+.PHONY : libft/libft/ft_strcat.o
+
+# target to build an object file
+libft/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o
+.PHONY : libft/libft/ft_strcat.c.o
+
+libft/libft/ft_strcat.i: libft/libft/ft_strcat.c.i
+
+.PHONY : libft/libft/ft_strcat.i
+
+# target to preprocess a source file
+libft/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.i
+.PHONY : libft/libft/ft_strcat.c.i
+
+libft/libft/ft_strcat.s: libft/libft/ft_strcat.c.s
+
+.PHONY : libft/libft/ft_strcat.s
+
+# target to generate assembly for a file
+libft/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.s
+.PHONY : libft/libft/ft_strcat.c.s
+
 libft/libft/ft_strcmp.o: libft/libft/ft_strcmp.c.o
 
 .PHONY : libft/libft/ft_strcmp.o
@@ -203,6 +284,114 @@ libft/libft/ft_strcmp.s: libft/libft/ft_strcmp.c.s
 libft/libft/ft_strcmp.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.s
 .PHONY : libft/libft/ft_strcmp.c.s
+
+libft/libft/ft_strcpy.o: libft/libft/ft_strcpy.c.o
+
+.PHONY : libft/libft/ft_strcpy.o
+
+# target to build an object file
+libft/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o
+.PHONY : libft/libft/ft_strcpy.c.o
+
+libft/libft/ft_strcpy.i: libft/libft/ft_strcpy.c.i
+
+.PHONY : libft/libft/ft_strcpy.i
+
+# target to preprocess a source file
+libft/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.i
+.PHONY : libft/libft/ft_strcpy.c.i
+
+libft/libft/ft_strcpy.s: libft/libft/ft_strcpy.c.s
+
+.PHONY : libft/libft/ft_strcpy.s
+
+# target to generate assembly for a file
+libft/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.s
+.PHONY : libft/libft/ft_strcpy.c.s
+
+libft/libft/ft_strjoin.o: libft/libft/ft_strjoin.c.o
+
+.PHONY : libft/libft/ft_strjoin.o
+
+# target to build an object file
+libft/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o
+.PHONY : libft/libft/ft_strjoin.c.o
+
+libft/libft/ft_strjoin.i: libft/libft/ft_strjoin.c.i
+
+.PHONY : libft/libft/ft_strjoin.i
+
+# target to preprocess a source file
+libft/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.i
+.PHONY : libft/libft/ft_strjoin.c.i
+
+libft/libft/ft_strjoin.s: libft/libft/ft_strjoin.c.s
+
+.PHONY : libft/libft/ft_strjoin.s
+
+# target to generate assembly for a file
+libft/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.s
+.PHONY : libft/libft/ft_strjoin.c.s
+
+libft/libft/ft_strlen.o: libft/libft/ft_strlen.c.o
+
+.PHONY : libft/libft/ft_strlen.o
+
+# target to build an object file
+libft/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o
+.PHONY : libft/libft/ft_strlen.c.o
+
+libft/libft/ft_strlen.i: libft/libft/ft_strlen.c.i
+
+.PHONY : libft/libft/ft_strlen.i
+
+# target to preprocess a source file
+libft/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.i
+.PHONY : libft/libft/ft_strlen.c.i
+
+libft/libft/ft_strlen.s: libft/libft/ft_strlen.c.s
+
+.PHONY : libft/libft/ft_strlen.s
+
+# target to generate assembly for a file
+libft/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.s
+.PHONY : libft/libft/ft_strlen.c.s
+
+libft/libft/ft_strnew.o: libft/libft/ft_strnew.c.o
+
+.PHONY : libft/libft/ft_strnew.o
+
+# target to build an object file
+libft/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o
+.PHONY : libft/libft/ft_strnew.c.o
+
+libft/libft/ft_strnew.i: libft/libft/ft_strnew.c.i
+
+.PHONY : libft/libft/ft_strnew.i
+
+# target to preprocess a source file
+libft/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.i
+.PHONY : libft/libft/ft_strnew.c.i
+
+libft/libft/ft_strnew.s: libft/libft/ft_strnew.c.s
+
+.PHONY : libft/libft/ft_strnew.s
+
+# target to generate assembly for a file
+libft/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.s
+.PHONY : libft/libft/ft_strnew.c.s
 
 vm/controller/create_fun.o: vm/controller/create_fun.c.o
 
@@ -378,12 +567,33 @@ help:
 	@echo "... libft/libft/ft_atoi.o"
 	@echo "... libft/libft/ft_atoi.i"
 	@echo "... libft/libft/ft_atoi.s"
+	@echo "... libft/libft/ft_bzero.o"
+	@echo "... libft/libft/ft_bzero.i"
+	@echo "... libft/libft/ft_bzero.s"
 	@echo "... libft/libft/ft_isdigit.o"
 	@echo "... libft/libft/ft_isdigit.i"
 	@echo "... libft/libft/ft_isdigit.s"
+	@echo "... libft/libft/ft_memset.o"
+	@echo "... libft/libft/ft_memset.i"
+	@echo "... libft/libft/ft_memset.s"
+	@echo "... libft/libft/ft_strcat.o"
+	@echo "... libft/libft/ft_strcat.i"
+	@echo "... libft/libft/ft_strcat.s"
 	@echo "... libft/libft/ft_strcmp.o"
 	@echo "... libft/libft/ft_strcmp.i"
 	@echo "... libft/libft/ft_strcmp.s"
+	@echo "... libft/libft/ft_strcpy.o"
+	@echo "... libft/libft/ft_strcpy.i"
+	@echo "... libft/libft/ft_strcpy.s"
+	@echo "... libft/libft/ft_strjoin.o"
+	@echo "... libft/libft/ft_strjoin.i"
+	@echo "... libft/libft/ft_strjoin.s"
+	@echo "... libft/libft/ft_strlen.o"
+	@echo "... libft/libft/ft_strlen.i"
+	@echo "... libft/libft/ft_strlen.s"
+	@echo "... libft/libft/ft_strnew.o"
+	@echo "... libft/libft/ft_strnew.i"
+	@echo "... libft/libft/ft_strnew.s"
 	@echo "... vm/controller/create_fun.o"
 	@echo "... vm/controller/create_fun.i"
 	@echo "... vm/controller/create_fun.s"

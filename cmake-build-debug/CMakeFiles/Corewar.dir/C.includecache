@@ -32,9 +32,37 @@ get_next_line.h
 
 /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c
 
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_bzero.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
 /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c
 
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_memset.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcat.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
 /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c
+
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcpy.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+
+/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c
+../header/libft.h
+/nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
 
 /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c
 ../includes/vm.h

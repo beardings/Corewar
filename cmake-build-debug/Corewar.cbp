@@ -85,10 +85,31 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_atoi.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_bzero.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_isdigit.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_memset.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcat.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcmp.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strcpy.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c">
 			<Option target="Corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c">

@@ -19,11 +19,12 @@
 # include <stdio.h>
 # define RED "\x1b[31m"
 # define END "\033[0m"
+# define HEX "0123456789abcdef"
 
 typedef struct			s_players
 {
 	header_t			header;
-	unsigned char		*comands;
+	char				*comands;
     int                 num;
 	int					live;
 	int					live_amount;

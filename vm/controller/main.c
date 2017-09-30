@@ -205,6 +205,6 @@ int		main(int argc, char **argv)
     print_data_players(&players);
     if ((ft_swap_players(&players, flags->amount_players) == 0))
         return (0);
-	//start_vm(players, flags);
+	//start_vm(players, flags->amount_players, flags);
 	return (0);
 }

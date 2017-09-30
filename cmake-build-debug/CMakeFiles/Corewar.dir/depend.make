@@ -3,9 +3,44 @@
 
 CMakeFiles/Corewar.dir/libft/libft/ft_atoi.c.o: ../libft/libft/ft_atoi.c
 
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o: ../libft/libft/ft_bzero.c
+
 CMakeFiles/Corewar.dir/libft/libft/ft_isdigit.c.o: ../libft/libft/ft_isdigit.c
 
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o: ../libft/libft/ft_memset.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o: ../libft/libft/ft_strcat.c
+
 CMakeFiles/Corewar.dir/libft/libft/ft_strcmp.c.o: ../libft/libft/ft_strcmp.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o: ../libft/libft/ft_strcpy.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o: ../libft/libft/ft_strjoin.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o: ../libft/libft/ft_strlen.c
+
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/libft/ft_strnew.c
 
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/ft_printf.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/get_next_line.h

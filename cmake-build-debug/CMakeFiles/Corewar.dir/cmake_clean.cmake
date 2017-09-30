@@ -8,6 +8,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o"
   "CMakeFiles/Corewar.dir/vm/controller/print_func.c.o"
   "CMakeFiles/Corewar.dir/vm/controller/help_func.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_strcat.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_strcpy.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o"
+  "CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o"
   "Corewar.pdb"
   "Corewar"
 )
