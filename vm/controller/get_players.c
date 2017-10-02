@@ -45,19 +45,15 @@ void        get_another_data(t_players **tmp, int fd)
 {
     unsigned char   *com;
     char *str;
-    char *tmp1;
     int i;
 
     i = 0;
     str = NULL;
     com = malloc(((*tmp)->header.prog_size));
     read(fd, com, (*tmp)->header.prog_size);
-    // нужно закинуть в итоа бейс - сом как инт и перевести по 1 байту в 16 системе
-    while (com[i] != '\0')
+    while (i < (int)(*tmp)->header.prog_size)
     {
-        if (str == NULL)
-            tmp1 = ten_hex((int)com[i], NULL, 1);
-
+        str = ten_hex((int)com[i], str, 2);
         i++;
     }
     (*tmp)->comands = str;
