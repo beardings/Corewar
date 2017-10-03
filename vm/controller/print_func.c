@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_func.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/03 17:11:43 by mponomar          #+#    #+#             */
+/*   Updated: 2017/10/03 17:15:20 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/vm.h"
 
 void	print_error(char *str)
@@ -34,7 +46,9 @@ void	print_data_players(t_players **players)
 		return ;
 	while (tmp != NULL)
 	{
-		printf("* Player %d, weighing %u bytes, <%s> (%s) !\n", tmp->num, tmp->header.prog_size, tmp->header.prog_name, tmp->header.comment);
+		printf("* Player %d, weighing", tmp->num);
+		printf(" %u bytes,", tmp->header.prog_size);
+		printf(" <%s> (%s) !\n", tmp->header.prog_name, tmp->header.comment);
 		tmp = tmp->next;
 	}
 }

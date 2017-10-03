@@ -42,6 +42,20 @@ CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o
  /nfs/2016/m/mponomar/project/git/Corewar/libft/header/get_next_line.h
  /nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
  /nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/get_next_line.h
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/includes/op.h
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/get_next_line.h
+ /nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/includes/op.h
+ /nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o
  /nfs/2016/m/mponomar/project/git/Corewar/libft/header/ft_printf.h
  /nfs/2016/m/mponomar/project/git/Corewar/libft/header/get_next_line.h

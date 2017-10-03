@@ -42,6 +42,20 @@ CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/header/get_next_line.
 CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/header/libft.h
 CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o: ../libft/libft/ft_strnew.c
 
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../vm/controller/change_first_reg.c
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../vm/includes/op.h
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../vm/includes/vm.h
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../libft/header/ft_printf.h
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../libft/header/get_next_line.h
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../libft/header/libft.h
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../vm/controller/check_flags_for.c
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../vm/includes/op.h
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../vm/includes/vm.h
+
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/ft_printf.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/get_next_line.h
 CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o: ../libft/header/libft.h

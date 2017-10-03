@@ -64,6 +64,14 @@ get_next_line.h
 ../header/libft.h
 /nfs/2016/m/mponomar/project/git/Corewar/libft/header/libft.h
 
+/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c
+../includes/vm.h
+/nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h
+
+/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c
+../includes/vm.h
+/nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h
+
 /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c
 ../includes/vm.h
 /nfs/2016/m/mponomar/project/git/Corewar/vm/includes/vm.h

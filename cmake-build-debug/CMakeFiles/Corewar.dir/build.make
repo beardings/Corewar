@@ -441,6 +441,54 @@ CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides: CMakeFiles/Corewar.di
 CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.provides.build: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o
 
 
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o: ../vm/controller/change_first_reg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c
+
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c > CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c -o CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o
+
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: CMakeFiles/Corewar.dir/flags.make
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o: ../vm/controller/check_flags_for.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o   -c /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c > CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.i
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c -o CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.s
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.requires:
+
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.requires
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.provides: CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.requires
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.provides.build
+.PHONY : CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.provides
+
+CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.provides.build: CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o
+
+
 # Object files for target Corewar
 Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/vm/controller/main.c.o" \
@@ -458,7 +506,9 @@ Corewar_OBJECTS = \
 "CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o" \
 "CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o" \
 "CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o" \
-"CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o"
+"CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o" \
+"CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o"
 
 # External object files for target Corewar
 Corewar_EXTERNAL_OBJECTS =
@@ -479,9 +529,11 @@ Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o
 Corewar: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o
+Corewar: CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: CMakeFiles/Corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable Corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -505,6 +557,8 @@ CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o.requires
 CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o.requires
+CMakeFiles/Corewar.dir/requires: CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o.requires
 
 .PHONY : CMakeFiles/Corewar.dir/requires
 

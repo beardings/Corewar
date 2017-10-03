@@ -19,6 +19,8 @@ set(SOURCE_FILES vm/controller/main.c
         libft/libft/ft_strlen.c
         libft/libft/ft_strnew.c
         libft/libft/ft_bzero.c
-        libft/libft/ft_memset.c)
+        libft/libft/ft_memset.c
+        vm/controller/change_first_reg.c
+        vm/controller/check_flags_for.c)
 
 add_executable(Corewar ${SOURCE_FILES})

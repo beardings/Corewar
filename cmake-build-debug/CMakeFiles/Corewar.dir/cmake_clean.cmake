@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o"
   "CMakeFiles/Corewar.dir/libft/libft/ft_bzero.c.o"
   "CMakeFiles/Corewar.dir/libft/libft/ft_memset.c.o"
+  "CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o"
+  "CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o"
   "Corewar.pdb"
   "Corewar"
 )

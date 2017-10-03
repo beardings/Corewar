@@ -15,8 +15,6 @@ NAME = corewar
 CC = gcc
 FLAGS = -Wall -Wextra -Werror
 
-MOD = model/
-VIEW = view/
 CONT = controller/
 INC = includes/
 LIBFT = ../../libft/

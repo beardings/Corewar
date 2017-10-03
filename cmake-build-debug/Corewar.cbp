@@ -112,6 +112,12 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c">
 			<Option target="Corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c">
+			<Option target="Corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c">
 			<Option target="Corewar"/>
 		</Unit>

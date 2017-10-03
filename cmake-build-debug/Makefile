@@ -393,6 +393,60 @@ libft/libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.s
 .PHONY : libft/libft/ft_strnew.c.s
 
+vm/controller/change_first_reg.o: vm/controller/change_first_reg.c.o
+
+.PHONY : vm/controller/change_first_reg.o
+
+# target to build an object file
+vm/controller/change_first_reg.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o
+.PHONY : vm/controller/change_first_reg.c.o
+
+vm/controller/change_first_reg.i: vm/controller/change_first_reg.c.i
+
+.PHONY : vm/controller/change_first_reg.i
+
+# target to preprocess a source file
+vm/controller/change_first_reg.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.i
+.PHONY : vm/controller/change_first_reg.c.i
+
+vm/controller/change_first_reg.s: vm/controller/change_first_reg.c.s
+
+.PHONY : vm/controller/change_first_reg.s
+
+# target to generate assembly for a file
+vm/controller/change_first_reg.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.s
+.PHONY : vm/controller/change_first_reg.c.s
+
+vm/controller/check_flags_for.o: vm/controller/check_flags_for.c.o
+
+.PHONY : vm/controller/check_flags_for.o
+
+# target to build an object file
+vm/controller/check_flags_for.c.o:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o
+.PHONY : vm/controller/check_flags_for.c.o
+
+vm/controller/check_flags_for.i: vm/controller/check_flags_for.c.i
+
+.PHONY : vm/controller/check_flags_for.i
+
+# target to preprocess a source file
+vm/controller/check_flags_for.c.i:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.i
+.PHONY : vm/controller/check_flags_for.c.i
+
+vm/controller/check_flags_for.s: vm/controller/check_flags_for.c.s
+
+.PHONY : vm/controller/check_flags_for.s
+
+# target to generate assembly for a file
+vm/controller/check_flags_for.c.s:
+	$(MAKE) -f CMakeFiles/Corewar.dir/build.make CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.s
+.PHONY : vm/controller/check_flags_for.c.s
+
 vm/controller/create_fun.o: vm/controller/create_fun.c.o
 
 .PHONY : vm/controller/create_fun.o
@@ -594,6 +648,12 @@ help:
 	@echo "... libft/libft/ft_strnew.o"
 	@echo "... libft/libft/ft_strnew.i"
 	@echo "... libft/libft/ft_strnew.s"
+	@echo "... vm/controller/change_first_reg.o"
+	@echo "... vm/controller/change_first_reg.i"
+	@echo "... vm/controller/change_first_reg.s"
+	@echo "... vm/controller/check_flags_for.o"
+	@echo "... vm/controller/check_flags_for.i"
+	@echo "... vm/controller/check_flags_for.s"
 	@echo "... vm/controller/create_fun.o"
 	@echo "... vm/controller/create_fun.i"
 	@echo "... vm/controller/create_fun.s"

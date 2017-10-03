@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strjoin.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_strjoin.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strlen.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_strlen.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/libft/libft/ft_strnew.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/libft/libft/ft_strnew.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/change_first_reg.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/change_first_reg.c.o"
+  "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/check_flags_for.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/check_flags_for.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/create_fun.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/create_fun.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_flags.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/get_flags.c.o"
   "/nfs/2016/m/mponomar/project/git/Corewar/vm/controller/get_players.c" "/nfs/2016/m/mponomar/project/git/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/vm/controller/get_players.c.o"
