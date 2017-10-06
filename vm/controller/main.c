@@ -12,6 +12,23 @@
 
 #include "../includes/vm.h"
 
+void			free_players(t_players **players)
+{
+	t_players *tmp;
+	t_players *wow;
+
+	wow = *players;
+	while (wow)
+	{
+		tmp = wow;
+		wow = wow->next;
+		free(tmp->comands);
+		if (tmp->reg != NULL)
+			free(tmp->reg);
+		free(tmp);
+	}
+	*players = NULL;
+}
 int				main(int argc, char **argv)
 {
 	t_flags		*flags;
@@ -29,7 +46,10 @@ int				main(int argc, char **argv)
 		return (0);
 	players = create_players();
 	if ((get_players(players, argv, argc, flags) == 0))
+	{
+		free_players(&players);
 		return (0);
+	}
 	change_first_reg_players(&players);
 	if ((ft_swap_players(&players, flags->amount_players) == 0))
 		return (0);

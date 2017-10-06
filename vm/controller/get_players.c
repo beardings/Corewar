@@ -27,6 +27,7 @@ void				get_another_data(t_players **tmp, int fd)
 		str = ten_hex((int)com[i], str, 2);
 		i++;
 	}
+	free(com);
 	(*tmp)->comands = str;
 }
 
@@ -44,11 +45,13 @@ int					check_cor_file(t_players **tmp, char *cor_file)
 	header->prog_size = change_bite(header->prog_size);
 	if (header->prog_size > CHAMP_MAX_SIZE)
 	{
+		free(header);
 		print_error("Program size the bigger then max size.");
 		return (0);
 	}
 	if (header->magic != COREWAR_EXEC_MAGIC)
 	{
+		free(header);
 		print_error("Magic kay are not correct.");
 		return (0);
 	}
