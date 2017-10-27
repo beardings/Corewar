@@ -71,9 +71,9 @@ int		ok_lets_go(int fd, t_char *lst, char *name)
 	l = NULL;
 	line = NULL;
 	if (!if_name(fd, &line, lst))
-		printf("Error: bad name    %s\n", name);
+		ft_printf("Error: bad name    %s\n", name);
 	else if (!if_comment(fd, &line, lst))
-		printf("Error: bad comment    %s\n", name);
+		ft_printf("Error: bad comment    %s\n", name);
 	else
 	{
 		if ((l = byte_go(fd, lst)))
@@ -85,7 +85,7 @@ int		ok_lets_go(int fd, t_char *lst, char *name)
 			}
 		}
 		else
-			printf("Error    %s\n", name);
+			ft_printf("Error    %s\n", name);
 	}
 	free_all(lst, l, line);
 	return (1);
@@ -102,7 +102,7 @@ void	start_this(char *argv)
 	if (correct_end_s(argv))
 		fd = open(argv, O_RDONLY);
 	if (fd <= 0)
-		printf("Error: Bad file %s\n", argv);
+		ft_printf("Error: Bad file %s\n", argv);
 	else
 	{
 		tmp = ft_strndup(argv, ft_strlen(argv) - 2);
@@ -125,7 +125,7 @@ int		main(int argc, char **argv)
 
 	i = 1;
 	if (argc == 1)
-		ft_putstr("./asm filenmae.s\n");
+		ft_putstr("./asm filename.s\n");
 	else
 	{
 		while (i < argc)

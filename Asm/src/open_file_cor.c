@@ -27,7 +27,7 @@ int		open_file_cor(char *name, int fd)
 	if (fd2 == -1)
 	{
 		close(fd);
-		printf("Error: couldn't create file, maybe you need chmod\n");
+		ft_printf("Error: couldn't create file, maybe you need chmod\n");
 		return (0);
 	}
 	return (fd2);

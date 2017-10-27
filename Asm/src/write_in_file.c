@@ -107,5 +107,5 @@ void	write_in_file(int fd, t_char *lst, t_label *l, char *name)
 	while (--i >= 0)
 		write_char_file("00", fd);
 	write_byte_code(fd, lst, l);
-	printf("Write file in %s\n", name);
+	ft_printf("Write file in %s\n", name);
 }
