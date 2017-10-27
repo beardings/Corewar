@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/08 17:10:54 by mponomar          #+#    #+#             */
-/*   Updated: 2017/10/28 02:42:25 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/10/28 02:13:35 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,8 +101,7 @@ int						check_flags_for_players(int argc,
 		t_flags *flags, char **argv);
 int						sort_list(t_players **head, t_flags *flags);
 void					zjmp(t_players *player, t_byte *map);
-void					live(t_players *players, t_byte *map,
-						t_players *player);
+void					live(t_players *players, t_byte *map, t_players *player);
 void					sti(t_players *player, t_byte *map);
 void					and_xor(t_players *player, t_byte *map, char flag);
 char					*get_binary(t_byte *map, t_players *player);
