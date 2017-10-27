@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void	for_ld_end(byte *map, t_players **player, int posit, int r1)
+void	for_ld_end(t_byte *map, t_players **player, int posit, int r1)
 {
 	if (map[((*player)->pos + posit + 1) % MEM_SIZE] \
 		< 1 || map[((*player)->pos + posit + 1) % MEM_SIZE] > REG_NUMBER)
@@ -28,7 +28,7 @@ void	for_ld_end(byte *map, t_players **player, int posit, int r1)
 		(*player)->carry = 0;
 }
 
-int		for_ldi_start(t_players **player, int *posit, byte *map, char **bin)
+int		for_ldi_start(t_players **player, int *posit, t_byte *map, char **bin)
 {
 	int		ret;
 
@@ -47,7 +47,7 @@ int		for_ldi_start(t_players **player, int *posit, byte *map, char **bin)
 	return (ret);
 }
 
-int		for_ldi_peredstart(t_players **p, int *posit, byte *map, char **bin)
+int		for_ldi_peredstart(t_players **p, int *posit, t_byte *map, char **bin)
 {
 	int		ret;
 
@@ -79,7 +79,7 @@ void	mu_obnylyaem(int *r1, int *r2, int *for_r, int *posit)
 	(*posit) = 1;
 }
 
-int		return_ldi(byte *map, t_players *player, int *posit)
+int		return_ldi(t_byte *map, t_players *player, int *posit)
 {
 	if (map[(player->pos + (*posit) + 1) % MEM_SIZE]\
 	< 1 || map[(player->pos + (*posit) + 1) % MEM_SIZE] > REG_NUMBER)

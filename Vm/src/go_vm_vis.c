@@ -18,13 +18,13 @@ void	create_ff(t_flags *flags, int *i)
 	*i = 0;
 	flags->cycles = 1;
 	flags->cycles_test = 1;
-	flags->DIE = CYCLE_TO_DIE;
+	flags->die = CYCLE_TO_DIE;
 	flags->max_checks = 0;
 }
 
 void	go_vm_vis(t_players *players, int count, t_flags *flags)
 {
-	byte		*map;
+	t_byte		*map;
 	t_players	*stack;
 	int			i;
 
@@ -34,7 +34,7 @@ void	go_vm_vis(t_players *players, int count, t_flags *flags)
 	include_beginer_vis();
 	while (players[i].header.prog_name[0] != '\0')
 		get_stop(&(players[i++]), map);
-	while (flags->DIE > 0)
+	while (flags->die > 0)
 	{
 		if (flags->paused == 0)
 		{

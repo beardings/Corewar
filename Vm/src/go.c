@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void			print_map(byte *map)
+void			print_map(t_byte *map)
 {
 	int			i;
 
@@ -27,17 +27,17 @@ void			print_map(byte *map)
 	ft_printf("\n\n");
 }
 
-void			check_all(t_players *players, byte *map,
+void			check_all(t_players *players, t_byte *map,
 						t_players **stack, t_flags *flags)
 {
 	int			i;
 
 	i = 0;
-	if (flags->cycles_test >= flags->DIE)
+	if (flags->cycles_test >= flags->die)
 	{
 		if (get_lives(players, *stack) >= NBR_LIVE || flags->max_checks == 10)
 		{
-			flags->DIE -= CYCLE_DELTA;
+			flags->die -= CYCLE_DELTA;
 			flags->max_checks = 0;
 		}
 		else
@@ -47,7 +47,7 @@ void			check_all(t_players *players, byte *map,
 	}
 }
 
-void			main_cycle(t_players *players, byte *map,
+void			main_cycle(t_players *players, t_byte *map,
 							t_players **stack, t_flags *flags)
 {
 	int			i;
@@ -73,19 +73,19 @@ void			main_cycle(t_players *players, byte *map,
 
 void			go_vm(t_players *players, int count, t_flags *flags)
 {
-	byte		*map;
+	t_byte		*map;
 	t_players	*stack;
 	int			i;
 
 	i = 0;
 	flags->cycles = 1;
 	flags->cycles_test = 1;
-	flags->DIE = CYCLE_TO_DIE;
+	flags->die = CYCLE_TO_DIE;
 	flags->max_checks = 0;
 	map = get_map(players, count, &(flags->cycles));
 	while (players[i].header.prog_name[0] != '\0')
 		get_stop(&(players[i++]), map);
-	while (flags->DIE > 0)
+	while (flags->die > 0)
 	{
 		main_cycle(players, map, &stack, flags);
 		check_all(players, map, &stack, flags);

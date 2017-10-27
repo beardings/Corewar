@@ -54,7 +54,7 @@ void			end_game_simple(t_players *players, int i)
 	exit(1);
 }
 
-void			end_game(t_players *players, byte *map,
+void			end_game(t_players *players, t_byte *map,
 						t_players **stack, t_flags *flags)
 {
 	int			i;

@@ -19,7 +19,7 @@ void				get_n(int *j, int *cycles, t_players *players, char **ptr)
 	(*j)++;
 }
 
-byte				*get_map_color(t_players *players, int count, int *cycles)
+t_byte				*get_map_color(t_players *players, int count, int *cycles)
 {
 	unsigned char	*map;
 	int				i;

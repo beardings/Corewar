@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-byte	*get_map(t_players *players, int count, int *cycles)
+t_byte	*get_map(t_players *players, int count, int *cycles)
 {
 	unsigned char	*map;
 	int				i;
@@ -38,7 +38,7 @@ byte	*get_map(t_players *players, int count, int *cycles)
 	return (map);
 }
 
-void	get_command2(t_players *player, byte *map, t_players **stack)
+void	get_command2(t_players *player, t_byte *map, t_players **stack)
 {
 	if (player->curr_com == 6)
 		and_xor(player, map, 'a');
@@ -66,7 +66,7 @@ void	get_command2(t_players *player, byte *map, t_players **stack)
 		player->pos += 1;
 }
 
-void	get_command(t_players *player, byte *map, t_players **stack,
+void	get_command(t_players *player, t_byte *map, t_players **stack,
 					t_players *players)
 {
 	if (player->stop == 0)

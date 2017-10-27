@@ -26,7 +26,7 @@ t_flags			*create_flags(void)
 	flags->speed = 1;
 	flags->base = 0;
 	flags->cycles = 0;
-	flags->DIE = 0;
+	flags->die = 0;
 	flags->cycles_test = 0;
 	flags->max_checks = 0;
 	flags->map_color = NULL;

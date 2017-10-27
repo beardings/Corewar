@@ -38,7 +38,7 @@ t_op	g_op_tab[17] =
 	{"aff", 1, {T_REG}, 16, 2, "aff", 1, 0, 4}
 };
 
-int		check_reg(int posit, byte *map)
+int		check_reg(int posit, t_byte *map)
 {
 	if (map[posit % MEM_SIZE] >= 1 && map[posit % MEM_SIZE] <= REG_NUMBER)
 		return (1);
@@ -46,7 +46,7 @@ int		check_reg(int posit, byte *map)
 		return (0);
 }
 
-int		get_bit(byte curr_byte, int n)
+int		get_bit(t_byte curr_byte, int n)
 {
 	if (n < 1 || n > 8)
 		return (0);
@@ -63,7 +63,7 @@ int		check_posit(int oppcode, t_players *player)
 		return (0);
 }
 
-int		for_check_opcode(t_players *pl, byte *m, int *p, int *o)
+int		for_check_opcode(t_players *pl, t_byte *m, int *p, int *o)
 {
 	int		ok;
 
@@ -90,7 +90,7 @@ int		for_check_opcode(t_players *pl, byte *m, int *p, int *o)
 	return (ok);
 }
 
-int		check_oppcode(t_players *player, byte *map)
+int		check_oppcode(t_players *player, t_byte *map)
 {
 	int		posit;
 	int		oppcode;

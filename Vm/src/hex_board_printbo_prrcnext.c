@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-char			*get_hex(byte val)
+char			*get_hex(t_byte val)
 {
 	char		*tmp;
 	char		*res;

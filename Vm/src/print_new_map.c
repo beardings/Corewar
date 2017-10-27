@@ -27,7 +27,7 @@ void		print_new_map_zero(char *tmp, int y, int x, int color)
 	attroff(COLOR_PAIR(color) | A_BOLD);
 }
 
-void		print_new_map(byte *map, byte *map_color)
+void		print_new_map(t_byte *map, t_byte *map_color)
 {
 	int		i;
 	int		y;

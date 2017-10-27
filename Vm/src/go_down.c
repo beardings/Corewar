@@ -70,7 +70,7 @@ void	stack0(t_players *stack)
 	}
 }
 
-void	check_end(t_players *players, byte *map,
+void	check_end(t_players *players, t_byte *map,
 				t_players **stack, t_flags *flags)
 {
 	int		i;

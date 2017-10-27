@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void	ld(t_players *player, byte *map)
+void	ld(t_players *player, t_byte *map)
 {
 	char	*binary;
 	int		r1;
@@ -37,7 +37,7 @@ void	ld(t_players *player, byte *map)
 	for_ld_end(map, &player, posit, r1);
 }
 
-void	ldi(t_players *player, byte *map)
+void	ldi(t_players *player, t_byte *map)
 {
 	int		r1;
 	int		r2;
@@ -65,7 +65,7 @@ void	ldi(t_players *player, byte *map)
 	player->pos += posit + 2;
 }
 
-int		lldi_mf_norm(t_players **player, int *posit, byte *map, char **binary)
+int		lldi_mf_norm(t_players **player, int *posit, t_byte *map, char **binary)
 {
 	int r1;
 
@@ -89,7 +89,7 @@ int		lldi_mf_norm(t_players **player, int *posit, byte *map, char **binary)
 	return (r1);
 }
 
-void	lldi(t_players *player, byte *map)
+void	lldi(t_players *player, t_byte *map)
 {
 	int		r1;
 	int		r2;
@@ -117,7 +117,7 @@ void	lldi(t_players *player, byte *map)
 		+ r1 + r2) % MEM_SIZE, map) == 0 ? 1 : 0;
 }
 
-void	lld(t_players *player, byte *map)
+void	lld(t_players *player, t_byte *map)
 {
 	char	*binary;
 	int		r1;

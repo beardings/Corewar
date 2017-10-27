@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void		get_stop(t_players *player, byte *map)
+void		get_stop(t_players *player, t_byte *map)
 {
 	int		stop[16];
 
@@ -88,7 +88,7 @@ int			atoi_base_livas(const char *str, int base)
 	return (value * sign);
 }
 
-void		get_map_dop(byte *map, char **ptr, int i)
+void		get_map_dop(t_byte *map, char **ptr, int i)
 {
 	char	*tmp;
 

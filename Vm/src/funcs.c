@@ -12,9 +12,9 @@
 
 #include "../includes/vm.h"
 
-int		get_reg(t_players *player, int posit, byte *map)
+int		get_reg(t_players *player, int posit, t_byte *map)
 {
-	byte	n;
+	t_byte	n;
 
 	n = map[posit % MEM_SIZE];
 	if (n > REG_NUMBER || n < 1)
@@ -22,7 +22,7 @@ int		get_reg(t_players *player, int posit, byte *map)
 	return ((int)player->reg[n - 1]);
 }
 
-int		get_tdir(int n, int posit, byte *map)
+int		get_tdir(int n, int posit, t_byte *map)
 {
 	int		res;
 
@@ -36,7 +36,7 @@ int		get_tdir(int n, int posit, byte *map)
 	return (res);
 }
 
-int		get_indir(t_players *player, char flag, int posit, byte *map)
+int		get_indir(t_players *player, char flag, int posit, t_byte *map)
 {
 	int			res;
 	short int	arg;
@@ -56,7 +56,7 @@ int		get_indir(t_players *player, char flag, int posit, byte *map)
 	return (res);
 }
 
-void	zjmp(t_players *player, byte *map)
+void	zjmp(t_players *player, t_byte *map)
 {
 	short int	jmp;
 
@@ -72,7 +72,7 @@ void	zjmp(t_players *player, byte *map)
 		player->pos += 3;
 }
 
-void	live(t_players *players, byte *map, t_players *player)
+void	live(t_players *players, t_byte *map, t_players *player)
 {
 	int		i;
 	int		reg;

@@ -12,14 +12,14 @@
 
 #include "../includes/vm.h"
 
-char	*for_blyalld(int *r1, int *posit, t_players *player, byte *map)
+char	*for_blyalld(int *r1, int *posit, t_players *player, t_byte *map)
 {
 	*r1 = 0;
 	*posit = 1;
 	return (get_binary(map, player));
 }
 
-int		lldi_hahamf_norm(t_players **player, int *posit, byte *map, char **b)
+int		lldi_hahamf_norm(t_players **player, int *posit, t_byte *map, char **b)
 {
 	int	r2;
 

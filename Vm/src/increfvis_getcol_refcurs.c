@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/27 23:47:04 by mponomar          #+#    #+#             */
-/*   Updated: 2017/10/27 23:50:57 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/10/28 02:37:39 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,8 @@ void			get_color(t_players *players, t_players **stack, t_flags *flags)
 	get_color_next(stack, flags);
 }
 
-void			refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
+void			refresh_cursor_next(t_flags *flags,
+									t_players *stack, t_byte *map)
 {
 	t_players	*tmp;
 
@@ -86,7 +87,7 @@ void			refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
 }
 
 void			refresh_cursor(t_players *players,
-								t_flags *flags, t_players *stack, byte *map)
+								t_flags *flags, t_players *stack, t_byte *map)
 {
 	int			i;
 
@@ -111,7 +112,7 @@ void			refresh_cursor(t_players *players,
 }
 
 void			include_refresh_vis(t_players *players, t_flags *flags,
-									t_players *stack, byte *map)
+									t_players *stack, t_byte *map)
 {
 	noecho();
 	print_board();
@@ -119,13 +120,13 @@ void			include_refresh_vis(t_players *players, t_flags *flags,
 	right_bar(flags, players, stack);
 	players_right_bar(players);
 	if (flags->amount_players == 1)
-		lives_right_row(players, flags->DIE, 0);
+		lives_right_row(players, flags->die, 0);
 	else if (flags->amount_players == 2)
-		lives_right_row(players, flags->DIE, 4);
+		lives_right_row(players, flags->die, 4);
 	else if (flags->amount_players == 3)
-		lives_right_row(players, flags->DIE, 8);
+		lives_right_row(players, flags->die, 8);
 	else if (flags->amount_players == 4)
-		lives_right_row(players, flags->DIE, 12);
+		lives_right_row(players, flags->die, 12);
 	refresh_cursor(players, flags, stack, map);
 	board_kay(flags);
 	refresh();

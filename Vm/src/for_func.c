@@ -12,12 +12,12 @@
 
 #include "../includes/vm.h"
 
-int		translate(byte r1, byte r2, byte r3, byte r4)
+int		translate(t_byte r1, t_byte r2, t_byte r3, t_byte r4)
 {
 	return (r1 * 256 * 256 * 256 + r2 * 256 * 256 + r3 * 256 + r4);
 }
 
-char	*get_binary(byte *map, t_players *player)
+char	*get_binary(t_byte *map, t_players *player)
 {
 	char	*tmp;
 	char	*res;

@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void			aff(t_players *player, byte *map)
+void			aff(t_players *player, t_byte *map)
 {
 	int			reg;
 
@@ -32,7 +32,7 @@ void			aff(t_players *player, byte *map)
 	player->pos += 3;
 }
 
-void			fork_func(t_players *player, byte *map, t_players **stack)
+void			fork_func(t_players *player, t_byte *map, t_players **stack)
 {
 	short int	dir;
 	t_players	*tmp;
@@ -61,7 +61,7 @@ void			fork_func(t_players *player, byte *map, t_players **stack)
 	player->pos += 3;
 }
 
-void			lfork_func(t_players *player, byte *map, t_players **stack)
+void			lfork_func(t_players *player, t_byte *map, t_players **stack)
 {
 	short int	dir;
 	t_players	*tmp;

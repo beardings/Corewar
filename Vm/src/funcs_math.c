@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-void	sub(t_players *player, byte *map)
+void	sub(t_players *player, t_byte *map)
 {
 	int		r1;
 	int		r2;
@@ -29,7 +29,7 @@ void	sub(t_players *player, byte *map)
 		player->carry = 0;
 }
 
-void	add(t_players *player, byte *map)
+void	add(t_players *player, t_byte *map)
 {
 	int		r1;
 	int		r2;
@@ -46,7 +46,7 @@ void	add(t_players *player, byte *map)
 		player->carry = 0;
 }
 
-int		and_xor_dop2(t_players *player, byte *map, int *posit, char *opp)
+int		and_xor_dop2(t_players *player, t_byte *map, int *posit, char *opp)
 {
 	int		r2;
 
@@ -69,7 +69,7 @@ int		and_xor_dop2(t_players *player, byte *map, int *posit, char *opp)
 	return (r2);
 }
 
-int		and_xor_dop(t_players *player, byte *map, int *posit, char *opp)
+int		and_xor_dop(t_players *player, t_byte *map, int *posit, char *opp)
 {
 	int		r1;
 
@@ -92,31 +92,31 @@ int		and_xor_dop(t_players *player, byte *map, int *posit, char *opp)
 	return (r1);
 }
 
-void	and_xor(t_players *player, byte *map, char flag)
+void	and_xor(t_players *player, t_byte *map, char flag)
 {
 	int		r1;
 	int		r2;
-	int		pos;
+	int		p;
 	char	*opp;
 
-	pos = 1;
+	p = 1;
 	if (check_oppcode(player, map) == 0)
 		return ;
 	opp = get_binary(map, player);
-	r1 = and_xor_dop(player, map, &pos, opp);
-	r2 = and_xor_dop2(player, map, &pos, opp + 2);
+	r1 = and_xor_dop(player, map, &p, opp);
+	r2 = and_xor_dop2(player, map, &p, opp + 2);
 	free(opp);
-	if ((byte)(map[((*player).pos + pos + 1) % MEM_SIZE] - 1) > REG_NUMBER - 1)
+	if ((t_byte)(map[((*player).pos + p + 1) % MEM_SIZE] - 1) > REG_NUMBER - 1)
 	{
-		player->pos += pos + 2;
+		player->pos += p + 2;
 		return ;
 	}
 	if (flag == 'a')
-		player->reg[map[(player->pos + pos + 1) % MEM_SIZE] - 1] = r1 & r2;
+		player->reg[map[(player->pos + p + 1) % MEM_SIZE] - 1] = r1 & r2;
 	else if (flag == 'o')
-		player->reg[map[(player->pos + pos + 1) % MEM_SIZE] - 1] = r1 | r2;
+		player->reg[map[(player->pos + p + 1) % MEM_SIZE] - 1] = r1 | r2;
 	else if (flag == 'x')
-		player->reg[map[(player->pos + pos + 1) % MEM_SIZE] - 1] = r1 ^ r2;
-	player->pos += pos + 2;
+		player->reg[map[(player->pos + p + 1) % MEM_SIZE] - 1] = r1 ^ r2;
+	player->pos += p + 2;
 	check_carry(player, r1, r2, flag);
 }
