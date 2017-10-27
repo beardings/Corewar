@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/03 17:17:41 by mponomar          #+#    #+#             */
-/*   Updated: 2017/10/03 18:33:00 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/10/28 01:02:42 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,44 +96,11 @@ unsigned int			change_bite(unsigned int num)
 	return (num);
 }
 
-void					insert_sorted(t_players **head, t_players *new_node)
+int						sort_list(t_players **head, t_flags *flags)
 {
-	t_players *tmp_node;
-
-	tmp_node = NULL;
-	if (*head == NULL || new_node->num < (*head)->num)
-	{
-		new_node->next = *head;
-		*head = new_node;
-		return ;
-	}
-	tmp_node = *head;
-	while (tmp_node->next && new_node->num > tmp_node->next->num)
-	{
-		tmp_node = tmp_node->next;
-	}
-	new_node->next = tmp_node->next;
-	tmp_node->next = new_node;
-}
-
-void					rename_players(t_players *player)
-{
-	int i;
-
-	i = 1;
-	while (player)
-	{
-		player->num = i;
-		i++;
-		player = player->next;
-	}
-}
-
-int					sort_list(t_players **head, t_flags *flags)
-{
-	t_players *new_head;
-	t_players *tmp;
-	t_players *tmp1;
+	t_players			*new_head;
+	t_players			*tmp;
+	t_players			*tmp1;
 
 	new_head = NULL;
 	tmp = *head;

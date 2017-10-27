@@ -51,7 +51,11 @@ VM_CMP =	main.o \
 			livas_base.o \
 			go.o \
 			funcs_forks.o \
-			funcs_st.o
+			funcs_st.o \
+			go_head.o \
+			go_middle.o \
+			go_center.o \
+			go_down.o 
 
 ASM_CMP =	asm_main.o \
 			correct_char_name.o \

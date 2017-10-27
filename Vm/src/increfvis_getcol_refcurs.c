@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   increfvis_getcol_refcurs.c                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/27 23:47:04 by mponomar          #+#    #+#             */
+/*   Updated: 2017/10/27 23:50:57 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/vm.h"
 
-void	get_color_next(t_players **stack, t_flags *flags)
+void			get_color_next(t_players **stack, t_flags *flags)
 {
-	t_players *tmp;
-	int k;
+	t_players	*tmp;
+	int			k;
 
 	tmp = *stack;
 	while (tmp != NULL)
@@ -25,10 +37,10 @@ void	get_color_next(t_players **stack, t_flags *flags)
 	}
 }
 
-void	get_color(t_players *players, t_players **stack, t_flags *flags)
+void			get_color(t_players *players, t_players **stack, t_flags *flags)
 {
-	int i;
-	int k;
+	int			i;
+	int			k;
 
 	i = 0;
 	while (players[i].header.prog_name[0] != '\0')
@@ -38,7 +50,7 @@ void	get_color(t_players *players, t_players **stack, t_flags *flags)
 			k = 0;
 			while (k < 4)
 			{
-				flags->map_color[players[i].st] =  i + 1;
+				flags->map_color[players[i].st] = i + 1;
 				players[i].st++;
 				if (players[i].st == MEM_SIZE)
 					players[i].st = 0;
@@ -51,7 +63,7 @@ void	get_color(t_players *players, t_players **stack, t_flags *flags)
 	get_color_next(stack, flags);
 }
 
-void    refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
+void			refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
 {
 	t_players	*tmp;
 
@@ -62,7 +74,8 @@ void    refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
 			attron(COLOR_PAIR(101));
 		else
 			attron(COLOR_PAIR(flags->map_color[tmp->pos] + 9));
-		mvwprintw(stdscr, (tmp->pos / 64) + 2, (tmp->pos % 64) * 3 + 3, "%02x", map[tmp->pos]);
+		mvwprintw(stdscr, (tmp->pos / 64) + 2,
+					(tmp->pos % 64) * 3 + 3, "%02x", map[tmp->pos]);
 		if (flags->map_color[tmp->pos] == 0)
 			attroff(COLOR_PAIR(101));
 		else
@@ -72,9 +85,10 @@ void    refresh_cursor_next(t_flags *flags, t_players *stack, byte *map)
 	}
 }
 
-void	refresh_cursor(t_players *players, t_flags *flags, t_players *stack, byte *map)
+void			refresh_cursor(t_players *players,
+								t_flags *flags, t_players *stack, byte *map)
 {
-	int 		i;
+	int			i;
 
 	i = 0;
 	while (players[i].header.prog_name[0] != '\0')
@@ -83,18 +97,21 @@ void	refresh_cursor(t_players *players, t_flags *flags, t_players *stack, byte *
 			attron(COLOR_PAIR(101));
 		else
 			attron(COLOR_PAIR(flags->map_color[players[i].pos] + 9));
-		mvwprintw(stdscr, (players[i].pos / 64) + 2, (players[i].pos % 64) * 3 + 3, "%02x", map[players[i].pos]);
+		mvwprintw(stdscr, (players[i].pos / 64) + 2,
+					(players[i].pos % 64) * 3 + 3, "%02x", map[players[i].pos]);
 		if (flags->map_color[players[i].pos] == 0)
 			attroff(COLOR_PAIR(101));
 		else
 			attroff(COLOR_PAIR(flags->map_color[players[i].pos] + 9));
-		mvwprintw(stdscr, (players[i].pos / 64) + 2, (players[i].pos % 64) * 3 + 5, " ");
+		mvwprintw(stdscr, (players[i].pos / 64) + 2,
+					(players[i].pos % 64) * 3 + 5, " ");
 		i++;
 	}
 	refresh_cursor_next(flags, stack, map);
 }
 
-void	include_refresh_vis(t_players *players, t_flags *flags, t_players *stack, byte *map)
+void			include_refresh_vis(t_players *players, t_flags *flags,
+									t_players *stack, byte *map)
 {
 	noecho();
 	print_board();

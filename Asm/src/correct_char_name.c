@@ -38,11 +38,12 @@ int		correct_label_char(char *str, int size)
 	return (j);
 }
 
-int		return_after_spac_tab_str(char *str)
+int		return_after_spac_tab_str(char *str, int *jjj)
 {
 	int		i;
 
 	i = 0;
+	*jjj = 0;
 	while (*str && (*str == ' ' || *str == '\t'))
 	{
 		str++;
@@ -90,9 +91,7 @@ int		correct_char_name(char **str, int size, int fd, int plus)
 	char	*line;
 	char	*line2;
 
-	j = 0;
-	line2 = NULL;
-	pl2 = return_after_spac_tab_str(*str + plus) + plus;
+	pl2 = return_after_spac_tab_str(*str + plus, &j) + plus;
 	if (*((*str) + pl2) != '"')
 		return (0);
 	else
@@ -106,6 +105,8 @@ int		correct_char_name(char **str, int size, int fd, int plus)
 			if (*line2 == '"' || j > size)
 				break ;
 		}
+		if (!line2)
+			return (0);
 	}
 	else
 		line2 = line;

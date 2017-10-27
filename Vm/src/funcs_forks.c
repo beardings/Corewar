@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../includes/vm.h"
-#include "../includes/op.h"
 
 void		aff(t_players *player, byte *map)
 {
@@ -40,8 +39,7 @@ void		fork_func(t_players *player, byte *map, t_players **stack)
 
 	dir = (short int)get_TDIR(2, player->pos + 1, map) % IDX_MOD;
 	tmp = (t_players*)malloc(sizeof(t_players));
-	if (*stack == NULL)
-		tmp->next = NULL;
+	*stack == NULL ? tmp->next = NULL : 0;
 	tmp->next = *stack;
 	*stack = tmp;
 	ft_strncpy(tmp->header.prog_name, "fork", 4);
@@ -69,8 +67,7 @@ void	lfork_func(t_players *player, byte *map, t_players **stack)
 	t_players	*tmp;
 
 	dir = (short int)get_TDIR(2, player->pos + 1, map);
-	if (dir + player->pos < 0)
-		dir = player->pos;
+	dir + player->pos < 0 ? dir = player->pos : 0;
 	tmp = (t_players*)malloc(sizeof(t_players));
 	tmp->next = *stack;
 	*stack = tmp;

@@ -125,28 +125,29 @@ int						check_oppcode(t_players *player, byte *map);
 int						check_reg(int posit, byte *map);
 char 					*livas_base(long long int n, int base);
 int						power(int number, int power);
-void	main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags);
-void	check_all(t_players *players, byte *map, t_players **stack, t_flags *flags);
-char	*for_blyalld(int *r1, int *posit, t_players *player, byte *map);
-void	for_ld_end(byte *map, t_players **player, int posit, int r1);
-void	mu_obnylyaem(int *r1, int *r2, int *for_r, int *posit);
-int		for_ldi_peredstart(t_players **p, int *posit, byte *map, char **bin);
-int		for_ldi_start(t_players **player, int *posit, byte *map, char **bin);
-int		return_ldi(byte *map, t_players *player, int *posit);
-int		lldi_hahamf_norm(t_players **player, int *posit, byte *map, char **b);
-void	and_xor_part2(char *opp, t_players *player, byte *map, int **args);
-void	and_xor_part3(char *opp, t_players *player, byte *map, int **args);
-void	and_xor_part4(char flag, t_players *player, byte *map, int **args);
-void	main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags);
-void	go_vm(t_players *players, int count, t_flags *flags);
-void	get_stop(t_players *player, byte *map);
-
-byte	*get_map(t_players *players, int count, int *cycles);
-void	check_all(t_players *players, byte *map, t_players **stack, t_flags *flags);
-void	get_command(t_players *player, byte *map, t_players **stack,
-					t_players *players);
-
-
+void					main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags);
+void					check_all(t_players *players, byte *map, t_players **stack, t_flags *flags);
+char 					*for_blyalld(int *r1, int *posit, t_players *player, byte *map);
+void					for_ld_end(byte *map, t_players **player, int posit, int r1);
+void					mu_obnylyaem(int *r1, int *r2, int *for_r, int *posit);
+int						for_ldi_peredstart(t_players **p, int *posit, byte *map, char **bin);
+int						for_ldi_start(t_players **player, int *posit, byte *map, char **bin);
+int						return_ldi(byte *map, t_players *player, int *posit);
+int						lldi_hahamf_norm(t_players **player, int *posit, byte *map, char **b);
+void					and_xor_part2(char *opp, t_players *player, byte *map, int **args);
+void					and_xor_part3(char *opp, t_players *player, byte *map, int **args);
+void					and_xor_part4(char flag, t_players *player, byte *map, int **args);
+void					main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags);
+void					go_vm(t_players *players, int count, t_flags *flags);
+void					get_stop(t_players *player, byte *map);
+byte					*get_map(t_players *players, int count, int *cycles);
+void					check_all(t_players *players, byte *map, t_players **stack, t_flags *flags);
+void					get_command(t_players *player, byte *map, t_players **stack,
+									t_players *players);
+void					get_map_dop(byte *map, char **ptr, int i);
+int 					get_last(t_players *players);
+int 					get_alive_players(t_players *players);
+void					check_carry(t_players *player, int r1, int r2, char flag);
 void					get_color(t_players *players, t_players **stack, t_flags *flags);
 void					refresh_cursor(t_players *players, t_flags *flags, t_players *stack, byte *map);
 void					include_refresh_vis(t_players *players, t_flags *flags, t_players *stack, byte *map);
@@ -173,5 +174,10 @@ void					check_end(t_players *players, byte *map, t_players **stack, t_flags *fl
 void					print_row(t_players *players, int point, int y);
 void					go_vm(t_players *players, int count, t_flags *flags);
 int     				find_i(int *i, int *did, int skiko, int all);
+void	suka_suma(byte **map, t_players **player, int r12, int r3);
+void	suka_suma_dva(byte **map, t_players **player, int r12, int r3);
+void			rename_players(t_players *player);
+void			insert_sorted(t_players **head, t_players *new_node);
+
 
 #endif
