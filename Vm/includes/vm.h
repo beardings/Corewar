@@ -118,9 +118,9 @@ void					aff(t_players *player, byte *map);
 void					start_vm(t_players **tmp, int count, t_flags *flags);
 void					get_stop(t_players *player, byte *map);
 int 					translate(byte r1, byte r2, byte r3, byte r4);
-int						get_TDIR(int n, int posit, byte *map);
-int						get_REG(t_players *player, int posit, byte *map);
-int						get_INDIR(t_players *player, char flag, int posit, byte *map);
+int						get_tdir(int n, int posit, byte *map);
+int						get_reg(t_players *player, int posit, byte *map);
+int						get_indir(t_players *player, char flag, int posit, byte *map);
 int						check_oppcode(t_players *player, byte *map);
 int						check_reg(int posit, byte *map);
 char 					*livas_base(long long int n, int base);
@@ -174,10 +174,10 @@ void					check_end(t_players *players, byte *map, t_players **stack, t_flags *fl
 void					print_row(t_players *players, int point, int y);
 void					go_vm(t_players *players, int count, t_flags *flags);
 int     				find_i(int *i, int *did, int skiko, int all);
-void	suka_suma(byte **map, t_players **player, int r12, int r3);
-void	suka_suma_dva(byte **map, t_players **player, int r12, int r3);
-void			rename_players(t_players *player);
-void			insert_sorted(t_players **head, t_players *new_node);
+void					suka_suma(byte **map, t_players **player, int r12, int r3);
+void					suka_suma_dva(byte **map, t_players **player, int r12, int r3);
+void					rename_players(t_players *player);
+void					insert_sorted(t_players **head, t_players *new_node);
 
 
 #endif

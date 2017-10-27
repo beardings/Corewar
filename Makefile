@@ -55,7 +55,7 @@ VM_CMP =	main.o \
 			go_head.o \
 			go_middle.o \
 			go_center.o \
-			go_down.o 
+			go_down.o
 
 ASM_CMP =	asm_main.o \
 			correct_char_name.o \

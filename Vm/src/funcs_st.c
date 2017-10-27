@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../includes/vm.h"
-#include "../includes/op.h"
 
 void	st(t_players *player, byte *map)
 {
@@ -28,19 +27,19 @@ void	st(t_players *player, byte *map)
 	r2 = 0;
 	if (ft_strnstr(binary, "11", 2))
 	{
-		r2 = (short int)get_INDIR(player, 'd', player->pos + posit + 1, map) % IDX_MOD;
+		r2 = (short int)get_indir(player, 'd', player->pos + posit + 1, map) % IDX_MOD;
 		posit += 2;
 	}
 	else if (ft_strnstr(binary, "01", 2))
 	{
-		r2 = get_REG(player, player->pos + posit + 1, map) % IDX_MOD;
+		r2 = get_reg(player, player->pos + posit + 1, map) % IDX_MOD;
 		posit++;
 	}
 	binary -= 2;
 	free(binary);
 	if (player->pos + r2 < 0)
 		r2 = MEM_SIZE + r2;
-	r1 = (unsigned int)get_REG(player, player->pos + 2, map);
+	r1 = (unsigned int)get_reg(player, player->pos + 2, map);
 	map[(player->pos + r2) % MEM_SIZE] = r1 / 0x1000000;
 	map[(player->pos + r2 + 1) % MEM_SIZE] = (r1 / 0x10000) & 0xFF;
 	map[(player->pos + r2 + 2) % MEM_SIZE] = (r1 / 0x100) & 0xFF;
@@ -66,33 +65,33 @@ void	sti(t_players *player, byte *map)
 	r2 = 0;
 	if (ft_strnstr(binary, "01", 2))
 	{
-		r1 = get_REG(player, player->pos + posit + 1, map);
+		r1 = get_reg(player, player->pos + posit + 1, map);
 		posit++;
 	}
 	else if (ft_strnstr(binary, "10", 2))
 	{
-		r1 = get_TDIR(2, player->pos + posit + 1, map);
+		r1 = get_tdir(2, player->pos + posit + 1, map);
 		posit += 2;
 	}
 	else if (ft_strnstr(binary, "11", 2))
 	{
-		r1 = get_INDIR(player, 'r', player->pos + posit + 1, map);
+		r1 = get_indir(player, 'r', player->pos + posit + 1, map);
 		posit += 2;
 	}
 	binary += 2;
 	if (ft_strnstr(binary, "01", 2))
 	{
-		r2 = get_REG(player, player->pos + posit + 1, map);
+		r2 = get_reg(player, player->pos + posit + 1, map);
 		posit++;
 	}
 	else if (ft_strnstr(binary, "10", 2))
 	{
-		r2 = get_TDIR(2, player->pos + posit + 1, map);
+		r2 = get_tdir(2, player->pos + posit + 1, map);
 		posit += 2;
 	}
 	binary -= 4;
 	free(binary);
-	r3 = (unsigned int)get_REG(player, player->pos + 2, map);
+	r3 = (unsigned int)get_reg(player, player->pos + 2, map);
 	if (player->pos + ((r1 + r2) % IDX_MOD) < 0)
 	{
 		map[(MEM_SIZE + (player->pos + ((r1 + r2) % IDX_MOD))) % MEM_SIZE] = r3 / 0x1000000;

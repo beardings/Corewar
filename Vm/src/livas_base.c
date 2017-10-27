@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "../includes/vm.h"
 
 char	*livas_base(long long int n, int base)
 {

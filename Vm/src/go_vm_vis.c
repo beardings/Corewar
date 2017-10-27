@@ -11,6 +11,16 @@
 /* ************************************************************************** */
 
 #include "../includes/vm.h"
+#define GO() flags->cycles++, flags->cycles_test++
+
+void	create_ff(t_flags *flags, int *i)
+{
+	*i = 0;
+	flags->cycles = 1;
+	flags->cycles_test = 1;
+	flags->DIE = CYCLE_TO_DIE;
+	flags->max_checks = 0;
+}
 
 void	go_vm_vis(t_players *players, int count, t_flags *flags)
 {
@@ -18,11 +28,7 @@ void	go_vm_vis(t_players *players, int count, t_flags *flags)
 	t_players	*stack;
 	int			i;
 
-	i = 0;
-	flags->cycles = 1;
-	flags->cycles_test = 1;
-	flags->DIE = CYCLE_TO_DIE;
-	flags->max_checks = 0;
+	create_ff(flags, &i);
 	map = get_map(players, count, &(flags->cycles));
 	flags->map_color = get_map_color(players, count, &(flags->cycles));
 	include_beginer_vis();
@@ -37,8 +43,7 @@ void	go_vm_vis(t_players *players, int count, t_flags *flags)
 			check_all(players, map, &stack, flags);
 			include_refresh_vis(players, flags, stack, map);
 			usleep(100000 / flags->speed);
-			flags->cycles++;
-			flags->cycles_test++;
+			GO();
 		}
 		else
 			include_refresh_vis(players, flags, stack, map);

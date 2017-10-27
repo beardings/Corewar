@@ -25,12 +25,12 @@ void	ld(t_players *player, byte *map)
 	binary = get_binary(map, player);
 	if (ft_strnstr(binary, "10", 2))
 	{
-		r1 = get_TDIR(4, player->pos + posit + 1, map);
+		r1 = get_tdir(4, player->pos + posit + 1, map);
 		posit += 4;
 	}
 	else if (ft_strnstr(binary, "11", 2))
 	{
-		r1 = get_INDIR(player, 'r', player->pos + posit + 1, map);
+		r1 = get_indir(player, 'r', player->pos + posit + 1, map);
 		posit += 2;
 	}
 	free(binary);
@@ -57,10 +57,10 @@ void	ldi(t_players *player, byte *map)
 	if (return_ldi(map, player, &posit))
 		return ;
 	if (player->pos + r1 + r2 < 0)
-		player->reg[map[player->pos + posit + 1] - 1] = get_TDIR(\
+		player->reg[map[player->pos + posit + 1] - 1] = get_tdir(\
 		4, MEM_SIZE + player->pos + ((r1 + r2) % IDX_MOD), map);
 	else
-		player->reg[map[player->pos + posit + 1] - 1] = get_TDIR(\
+		player->reg[map[player->pos + posit + 1] - 1] = get_tdir(\
 			4, player->pos + ((r1 + r2) % IDX_MOD), map);
 	player->pos += posit + 2;
 }
@@ -72,17 +72,17 @@ int		lldi_mf_norm(t_players **player, int *posit, byte *map, char **binary)
 	r1 = -134;
 	if (ft_strnstr((*binary), "01", 2))
 	{
-		r1 = get_REG((*player), (*player)->pos + (*posit) + 1, map);
+		r1 = get_reg((*player), (*player)->pos + (*posit) + 1, map);
 		(*posit)++;
 	}
 	else if (ft_strnstr((*binary), "10", 2))
 	{
-		r1 = get_TDIR(2, (*player)->pos + (*posit) + 1, map);
+		r1 = get_tdir(2, (*player)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	else if (ft_strnstr((*binary), "11", 2))
 	{
-		r1 = get_INDIR((*player), 'r', (*player)->pos + (*posit) + 1, map);
+		r1 = get_indir((*player), 'r', (*player)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	(*binary) += 2;
@@ -110,10 +110,10 @@ void	lldi(t_players *player, byte *map)
 		player->pos += posit + 2;
 		return ;
 	}
-	player->reg[map[player->pos + posit + 1] - 1] = get_TDIR(\
+	player->reg[map[player->pos + posit + 1] - 1] = get_tdir(\
 		4, (player->pos + r1 + r2) % MEM_SIZE, map);
 	player->pos += posit + 2;
-	player->carry = get_TDIR(4, (player->pos \
+	player->carry = get_tdir(4, (player->pos \
 		+ r1 + r2) % MEM_SIZE, map) == 0 ? 1 : 0;
 }
 
@@ -126,12 +126,12 @@ void	lld(t_players *player, byte *map)
 	binary = for_blyalld(&r1, &posit, player, map);
 	if (ft_strnstr(binary, "10", 2))
 	{
-		r1 = get_TDIR(4, player->pos + posit + 1, map);
+		r1 = get_tdir(4, player->pos + posit + 1, map);
 		posit += 4;
 	}
 	else if (ft_strnstr(binary, "11", 2))
 	{
-		r1 = get_INDIR(player, 'r', player->pos + posit + 1, map);
+		r1 = get_indir(player, 'r', player->pos + posit + 1, map);
 		posit += 2;
 	}
 	free(binary);

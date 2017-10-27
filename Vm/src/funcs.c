@@ -12,7 +12,7 @@
 
 #include "../includes/vm.h"
 
-int		get_REG(t_players *player, int posit, byte *map)
+int		get_reg(t_players *player, int posit, byte *map)
 {
 	byte	n;
 
@@ -22,7 +22,7 @@ int		get_REG(t_players *player, int posit, byte *map)
 	return ((int)player->reg[n - 1]);
 }
 
-int		get_TDIR(int n, int posit, byte *map)
+int		get_tdir(int n, int posit, byte *map)
 {
 	int		res;
 
@@ -36,14 +36,14 @@ int		get_TDIR(int n, int posit, byte *map)
 	return (res);
 }
 
-int		get_INDIR(t_players *player, char flag, int posit, byte *map)
+int		get_indir(t_players *player, char flag, int posit, byte *map)
 {
 	int			res;
 	short int	arg;
 	int			pos;
 
 	res = 0;
-	arg = (short int)get_TDIR(2, posit, map);
+	arg = (short int)get_tdir(2, posit, map);
 	if (player->pos + arg < 0)
 		pos = (MEM_SIZE + (player->pos + (arg % IDX_MOD))) % MEM_SIZE;
 	else
@@ -60,7 +60,7 @@ void	zjmp(t_players *player, byte *map)
 {
 	short int	jmp;
 
-	jmp = (short int)get_TDIR(2, player->pos + 1, map) % IDX_MOD;
+	jmp = (short int)get_tdir(2, player->pos + 1, map) % IDX_MOD;
 	if (player->carry == 1)
 	{
 		if (jmp + player->pos < 0)
@@ -78,7 +78,7 @@ void	live(t_players *players, byte *map, t_players *player)
 	int		reg;
 
 	i = 0;
-	reg = get_TDIR(4, player->pos + 1, map);
+	reg = get_tdir(4, player->pos + 1, map);
 	while (players[i].header.prog_name[0] != '\0')
 	{
 		if (reg == players[i].num)

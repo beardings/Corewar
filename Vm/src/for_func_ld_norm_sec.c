@@ -26,12 +26,12 @@ int		lldi_hahamf_norm(t_players **player, int *posit, byte *map, char **b)
 	r2 = -134;
 	if (ft_strnstr((*b), "10", 2))
 	{
-		r2 = get_TDIR(2, (*player)->pos + (*posit) + 1, map);
+		r2 = get_tdir(2, (*player)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	else if (ft_strnstr((*b), "01", 2))
 	{
-		r2 = get_REG((*player), (*player)->pos + (*posit) + 1, map);
+		r2 = get_reg((*player), (*player)->pos + (*posit) + 1, map);
 		(*posit)++;
 	}
 	(*b) -= 2;

@@ -6,30 +6,31 @@
 /*   By: liabanzh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/18 17:55:40 by liabanzh          #+#    #+#             */
-/*   Updated: 2017/07/18 17:55:41 by liabanzh         ###   ########.fr       */
+/*   Updated: 2017/10/28 01:11:48 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/vm.h"
 
-void	print_map(byte *map)
+void			print_map(byte *map)
 {
-	int 	i;
+	int			i;
 
 	i = 0;
 	while (i < MEM_SIZE)
 	{
 		if (i % 64 == 0)
-			printf("\n0x%04x : ", i);
-		printf("%02x ", map[i]);
+			ft_printf("\n0x%04x : ", i);
+		ft_printf("%02x ", map[i]);
 		i++;
 	}
-	printf("\n\n");
+	ft_printf("\n\n");
 }
 
-void	check_all(t_players *players, byte *map, t_players **stack, t_flags *flags)
+void			check_all(t_players *players, byte *map,
+						t_players **stack, t_flags *flags)
 {
-	int i;
+	int			i;
 
 	i = 0;
 	if (flags->cycles_test >= flags->DIE)
@@ -46,7 +47,8 @@ void	check_all(t_players *players, byte *map, t_players **stack, t_flags *flags)
 	}
 }
 
-void	main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags)
+void			main_cycle(t_players *players, byte *map,
+							t_players **stack, t_flags *flags)
 {
 	int			i;
 	t_players	*tmp;
@@ -69,11 +71,11 @@ void	main_cycle(t_players *players, byte *map, t_players **stack, t_flags *flags
 	}
 }
 
-void	go_vm(t_players *players, int count, t_flags *flags)
+void			go_vm(t_players *players, int count, t_flags *flags)
 {
 	byte		*map;
 	t_players	*stack;
-	int 		i;
+	int			i;
 
 	i = 0;
 	flags->cycles = 1;

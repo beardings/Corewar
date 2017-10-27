@@ -35,12 +35,12 @@ int		for_ldi_start(t_players **player, int *posit, byte *map, char **bin)
 	ret = -134;
 	if (ft_strnstr(*bin, "10", 2))
 	{
-		ret = get_TDIR(2, (*player)->pos + (*posit) + 1, map);
+		ret = get_tdir(2, (*player)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	else if (ft_strnstr(*bin, "01", 2))
 	{
-		ret = get_REG((*player), (*player)->pos + (*posit) + 1, map);
+		ret = get_reg((*player), (*player)->pos + (*posit) + 1, map);
 		(*posit)++;
 	}
 	(*bin) -= 2;
@@ -54,17 +54,17 @@ int		for_ldi_peredstart(t_players **p, int *posit, byte *map, char **bin)
 	ret = -134;
 	if (ft_strnstr(*bin, "11", 2))
 	{
-		ret = get_INDIR((*p), 'r', (*p)->pos + (*posit) + 1, map);
+		ret = get_indir((*p), 'r', (*p)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	else if (ft_strnstr(*bin, "10", 2))
 	{
-		ret = (short int)get_TDIR(2, (*p)->pos + (*posit) + 1, map);
+		ret = (short int)get_tdir(2, (*p)->pos + (*posit) + 1, map);
 		(*posit) += 2;
 	}
 	else if (ft_strnstr(*bin, "01", 2))
 	{
-		ret = get_REG((*p), (*p)->pos + (*posit) + 1, map);
+		ret = get_reg((*p), (*p)->pos + (*posit) + 1, map);
 		(*posit)++;
 	}
 	*bin += 2;
